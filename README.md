@@ -156,13 +156,14 @@ To build your own CNN model for text classification do the followings :
     
 The model will be saved in the directory models under a name related to the name defined in the variable model_name
 
-#To cite this :
+# To cite this :
 
-@misc{flambeau2020simplifying,
-      title={Simplifying the explanation of deep neural networks with sufficient and necessary feature-sets: case of text classification}, 
-      author={Jiechieu Kameni Florentin Flambeau and Tsopze Norbert},
-      year={2020},
-      eprint={2010.03724},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+
+    @misc{flambeau2020simplifying,
+        title={Simplifying the explanation of deep neural networks with sufficient and necessary feature-sets: case of text classification}, 
+        author={Jiechieu Kameni Florentin Flambeau and Tsopze Norbert},
+        year={2020},
+        eprint={2010.03724},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG}
+    }
