@@ -1,6 +1,8 @@
 # xai-cnn-lrp
 This repository contains codes to explain One-Dimensional Convolutional Neural Networks (1D-CNN) using Layer-wise Relevance Propagation. The explanation technique consists in computing the relevance of the various n-gram features and determining sufficient and necessary n-grams. Codes developed in this project were designed for experimental purposes and cannot be used in the state to handle all the types of 1D-CNN architecture without any adaptation. The project comes with a multi-channel 1D-CNN model generator which can be used to generate testing models.
 
+This article detail the method implemented in this repository : https://arxiv.org/abs/2010.03724
+
 # Dependencies :
     - python 3.6+
     - keras (tested on 2.2+)
@@ -153,3 +155,14 @@ To build your own CNN model for text classification do the followings :
        python train_1d_cnn.py
     
 The model will be saved in the directory models under a name related to the name defined in the variable model_name
+
+#To cite this :
+
+@misc{flambeau2020simplifying,
+      title={Simplifying the explanation of deep neural networks with sufficient and necessary feature-sets: case of text classification}, 
+      author={Jiechieu Kameni Florentin Flambeau and Tsopze Norbert},
+      year={2020},
+      eprint={2010.03724},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
