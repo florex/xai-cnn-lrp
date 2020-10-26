@@ -57,7 +57,7 @@ For custom configurations, execute the following actions :
    3. The result of the explanation is contained in the directory explanations under the name : <model_name>_all_feature_ngrams.json
 
 ## To explain the model on a single sentence :
-Edit the file explain_sentence.py and set the appropriate parameters or leave the default ones. Modify the variable <sent> with the sentence to explain
+Edit the file explain_sentence.py and set the appropriate parameters or leave the default ones. Modify the variable "sent" with the sentence to explain
 Then run the command :
 
     python explain_sentence.py
@@ -125,7 +125,7 @@ which has been designed to be self-explanatory. Contributions are in the form
 - ngram_feature :
    - CLASS_NAME : value
 
-- The value of the key "Overall" represents the relevance of the feature to the class predicted as the difference between its contribution to this class
+- The value of the key "Overall" represents the relevance of the feature to the class predicted as the difference between its contribution to the predicted class
 and the mean of its contribution to other classes except the predicted class.
 
 "0-ngram" represents ngram features which are not in the vocabulary or the translation of 0-padding sequences.
