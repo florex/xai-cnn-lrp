@@ -4,10 +4,11 @@ This repository contains codes to explain One-Dimensional Convolutional Neural N
 The method implemented in this repository is detailed in this article : https://arxiv.org/abs/2010.03724
 
 # Dependencies :
-    - python 3.6+
-    - keras (tested on 2.2+)
-    - numpy (1.16+)
-    - pandas (0.24+)
+    - Anaconda (python 3.6)
+    - keras (tested on 2.2.4)
+    - tensorflow (1.13.1)
+    - numpy (1.16)
+    - pandas (0.24)
 
 The project contains 4 main directories :
 
