@@ -1,5 +1,5 @@
 # xai-cnn-lrp
-This repository contains codes to explain One-Dimensional Convolutional Neural Networks (1D-CNN) using Layer-wise Relevance Propagation. The explanation technique consists in computing the relevance of the various n-gram features and determining sufficient and necessary n-grams. Codes developed in this project were designed for experimental purposes and cannot be used in the state to handle all the types of 1D-CNN architecture without any adaptation. The project comes with a multi-channel 1D-CNN model generator which can be used to generate testing models.
+This repository contains codes to explain One-Dimensional Convolutional Neural Networks (1D-CNN) using Layer-wise Relevance Propagation. The explanation technique consists in computing the relevance of the various n-gram features and determining sufficient and necessary n-grams. The project comes with a multi-channel 1D-CNN model generator which can be used to generate testing models.
 
 The method implemented in this repository is detailed in this article : https://arxiv.org/abs/2010.03724
 
