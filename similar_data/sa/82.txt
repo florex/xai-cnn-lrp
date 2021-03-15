@@ -1,0 +1,2 @@
+82
+this results in the phone being either stuck at max volume or mute:this results at max volume:

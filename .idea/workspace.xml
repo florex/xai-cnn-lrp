@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc92f103-3833-486e-b879-e2e3c9d9f59a" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="text_cnn.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_1d_cnn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_1d_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="explainer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/explainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="explainer_v1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/explainer_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="explain_cnn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/explain_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merged_all_feature_ngrams_3ch.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/explanations/merged_all_feature_ngrams_3ch.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ker</find>
+      <find>epo</find>
+      <find>revers</find>
+      <find>rever</find>
+      <find>model</find>
+      <find>model.pre</find>
+      <find>argma</find>
+      <find>save</find>
+      <find>who</find>
+      <find>when</find>
+      <find />
+      <find>how</find>
+      <find>scsi</find>
+      <find>too</find>
+      <find>explain</find>
+      <find>reverse</find>
+      <find>4</find>
+      <find>sufficie</find>
+      <find>class</find>
+      <find>conv_layers</find>
+      <find>necessary_feature_set</find>
+      <find>necessa</find>
+      <find>dense</find>
+      <find>print</find>
+      <find>model_file_path</find>
+      <find>tokenizer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.conv_layers</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lime" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/preprocessor" />
+        <option value="$PROJECT_DIR$/data/sentiment_analysis/amazon_cells_labelled.txt" />
+        <option value="$PROJECT_DIR$/data/sentiment_analysis/merged_sent.txt" />
+        <option value="$PROJECT_DIR$/datasets/process_imdb.py" />
+        <option value="$PROJECT_DIR$/process_imdb.py" />
+        <option value="$PROJECT_DIR$/process_data.py" />
+        <option value="$PROJECT_DIR$/sequential_cnn.py" />
+        <option value="$PROJECT_DIR$/test_cnn.py" />
+        <option value="$PROJECT_DIR$/explain_cnn_saved.py" />
+        <option value="$PROJECT_DIR$/explain_cnn_saved_2.py" />
+        <option value="$PROJECT_DIR$/process_sent140.py" />
+        <option value="$PROJECT_DIR$/sent140.txt" />
+        <option value="$PROJECT_DIR$/data/sentiment_analysis/qa_5500.txt" />
+        <option value="$PROJECT_DIR$/data/sentiment_analysis/QA/qa_label_ids.json" />
+        <option value="$PROJECT_DIR$/lime/__init__.py" />
+        <option value="$PROJECT_DIR$/process_qa.py" />
+        <option value="$PROJECT_DIR$/analyse_merged.py" />
+        <option value="$PROJECT_DIR$/data/readme.txt" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/preprocessor.py" />
+        <option value="$PROJECT_DIR$/explanations/merged_all_feature_ngrams.json" />
+        <option value="$PROJECT_DIR$/test_sent.txt" />
+        <option value="$PROJECT_DIR$/lime_time.py" />
+        <option value="$PROJECT_DIR$/lime_vs_lrpa.py" />
+        <option value="$PROJECT_DIR$/similar_data/3.txt" />
+        <option value="$PROJECT_DIR$/similar_data/11.txt" />
+        <option value="$PROJECT_DIR$/similar_data/49.txt" />
+        <option value="$PROJECT_DIR$/similar_data/64.txt" />
+        <option value="$PROJECT_DIR$/similar_data/73.txt" />
+        <option value="$PROJECT_DIR$/similar_data/74.txt" />
+        <option value="$PROJECT_DIR$/similar_data/82.txt" />
+        <option value="$PROJECT_DIR$/similar_data/86.txt" />
+        <option value="$PROJECT_DIR$/save_sentences_to_file.py" />
+        <option value="$PROJECT_DIR$/similar_data/6.txt" />
+        <option value="$PROJECT_DIR$/similar_data/17.txt" />
+        <option value="$PROJECT_DIR$/similar_data/38.txt" />
+        <option value="$PROJECT_DIR$/similar_data/53.txt" />
+        <option value="$PROJECT_DIR$/similar_data/58.txt" />
+        <option value="$PROJECT_DIR$/similar_data/sa/1.txt" />
+        <option value="$PROJECT_DIR$/produce_similar_sentences.py" />
+        <option value="$PROJECT_DIR$/lime.py" />
+        <option value="$PROJECT_DIR$/evaluate_fidelity.py" />
+        <option value="$PROJECT_DIR$/explainer.py" />
+        <option value="$PROJECT_DIR$/explain_sentence.py" />
+        <option value="$PROJECT_DIR$/evaluate_coherence.py" />
+        <option value="$PROJECT_DIR$/train_1d_cnn.py" />
+        <option value="$PROJECT_DIR$/explainer_v1.py" />
+        <option value="$PROJECT_DIR$/explain_cnn.py" />
+        <option value="$PROJECT_DIR$/text_cnn.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xai_cnn_crp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xai_cnn_crp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xai_cnn_crp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xai_cnn_crp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xai_cnn_crp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xai_cnn_crp" type="462c0819:PsiDirectoryNode" />
+              <item name="explanations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xai_cnn_crp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xai_cnn_crp" type="462c0819:PsiDirectoryNode" />
+              <item name="similar_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\PycharmProjects\xai_cnn_crp\explanations" />
+      <recent name="C:\Users\hp\PycharmProjects\xai_cnn_crp\data\sentiment_analysis" />
+      <recent name="C:\Users\hp\PycharmProjects\xai_cnn_crp" />
+      <recent name="C:\Users\hp\PycharmProjects\xai_cnn_crp\data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\PycharmProjects\xai_cnn_crp\data\sentiment_analysis" />
+      <recent name="C:\Users\hp\PycharmProjects\xai_cnn_crp" />
+      <recent name="C:\Users\hp\PycharmProjects\xai_cnn_crp\models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.lime">
+    <configuration name="axi_config" type="PythonConfigurationType" factoryName="Python">
+      <module name="xai_cnn_crp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Workspace\keras_cnn_lab\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xai_cnn_crp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="sequential_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xai_cnn_crp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sequential_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.axi_config" />
+      <item itemvalue="Python.sequential_cnn" />
+      <item itemvalue="Python.lime" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.lime" />
+        <item itemvalue="Python.sequential_cnn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc92f103-3833-486e-b879-e2e3c9d9f59a" name="Default" comment="" />
+      <created>1597688422272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597688422272</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2785235" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" visible="true" weight="0.03691275" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.51129943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1704698" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32871014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.70621467" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluate_coherence.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/explain_cnn.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/similar_data/78.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/79.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/80.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/81.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/82.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/83.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/84.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/85.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/86.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/87.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/88.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/89.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/90.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/91.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/92.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/93.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/94.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/95.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/96.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/97.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/99.txt" />
+    <entry file="file://$PROJECT_DIR$/similar_data/100.txt" />
+    <entry file="file://$PROJECT_DIR$/preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explanations/qa_5500_all_feature_ngrams.json" />
+    <entry file="file://$PROJECT_DIR$/lime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate_fidelity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Workspace/keras_cnn_lab/venv/Lib/site-packages/keras/engine/saving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="477" column="4" selection-start-line="477" selection-start-column="4" selection-end-line="477" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explain_sentence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate_coherence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="69" column="55" lean-forward="true" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/qa_5500_sim_dict.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produce_similar_sentences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_sentences_to_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/5.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/6.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/7.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/9.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/17.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/24.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similar_data/sa/26.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explanations/merged_all_feature_ngrams_lime_3ch.json" />
+    <entry file="file://$PROJECT_DIR$/explanations/merged_all_feature_ngrams_3ch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explain_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_1d_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explainer_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

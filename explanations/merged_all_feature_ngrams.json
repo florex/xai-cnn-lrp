@@ -1,0 +1,810 @@
+[
+    {
+        "sentence": [
+            "it was either too cold not enough flavor or just bad"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "NEGATIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "enough": {
+                            "NEGATIVE": -0.0023678503930568695,
+                            "POSITIVE": 0.0033189766108989716,
+                            "Overall": -0.005686827003955841
+                        }
+                    },
+                    {
+                        "just": {
+                            "NEGATIVE": -0.00039522559382021427,
+                            "POSITIVE": 0.00033870068727992475,
+                            "Overall": -0.0007339263102039695
+                        }
+                    },
+                    {
+                        "flavor": {
+                            "NEGATIVE": 0.1362847089767456,
+                            "POSITIVE": -0.10483357310295105,
+                            "Overall": 0.24111828207969666
+                        }
+                    },
+                    {
+                        "it": {
+                            "NEGATIVE": 2.7431058697402477e-05,
+                            "POSITIVE": -0.0002253811398986727,
+                            "Overall": 0.0002528121985960752
+                        }
+                    },
+                    {
+                        "bad": {
+                            "NEGATIVE": 0.2549152076244354,
+                            "POSITIVE": -0.1443854570388794,
+                            "Overall": 0.3993006646633148
+                        }
+                    },
+                    {
+                        "either": {
+                            "NEGATIVE": -0.027284560725092888,
+                            "POSITIVE": -0.0017589087365195155,
+                            "Overall": -0.02552565187215805
+                        }
+                    },
+                    {
+                        "or": {
+                            "NEGATIVE": 0.07031971216201782,
+                            "POSITIVE": -0.07866977900266647,
+                            "Overall": 0.1489894986152649
+                        }
+                    },
+                    {
+                        "not": {
+                            "NEGATIVE": 0.1827062964439392,
+                            "POSITIVE": -0.19882133603096008,
+                            "Overall": 0.3815276324748993
+                        }
+                    },
+                    {
+                        "too": {
+                            "NEGATIVE": 0.04424351081252098,
+                            "POSITIVE": -0.03983544558286667,
+                            "Overall": 0.08407895267009735
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": 0.2083643078804016,
+                            "POSITIVE": -0.19286155700683594,
+                            "Overall": 0.40122586488723755
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "bad": 0.3993006646633148
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": 0.40122586488723755
+                    }
+                ]
+            },
+            "necessary": {}
+        }
+    },
+    {
+        "sentence": [
+            "any grandmother can make a roasted chicken better than this one"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "POSITIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "roasted": {
+                            "NEGATIVE": -0.14030449092388153,
+                            "POSITIVE": 0.17466294765472412,
+                            "Overall": 0.31496745347976685
+                        }
+                    },
+                    {
+                        "make": {
+                            "NEGATIVE": 0.06611540913581848,
+                            "POSITIVE": -0.0552959144115448,
+                            "Overall": -0.12141132354736328
+                        }
+                    },
+                    {
+                        "grandmother": {
+                            "NEGATIVE": 0.07073981314897537,
+                            "POSITIVE": -0.06930675357580185,
+                            "Overall": -0.14004656672477722
+                        }
+                    },
+                    {
+                        "than": {
+                            "NEGATIVE": -0.1795748770236969,
+                            "POSITIVE": 0.18580660223960876,
+                            "Overall": 0.36538147926330566
+                        }
+                    },
+                    {
+                        "chicken": {
+                            "NEGATIVE": -0.028459105640649796,
+                            "POSITIVE": 0.028353311121463776,
+                            "Overall": 0.05681241676211357
+                        }
+                    },
+                    {
+                        "one": {
+                            "NEGATIVE": 0.0036256995517760515,
+                            "POSITIVE": -0.004176877439022064,
+                            "Overall": -0.007802576757967472
+                        }
+                    },
+                    {
+                        "can": {
+                            "NEGATIVE": -0.013669140636920929,
+                            "POSITIVE": 0.027172749862074852,
+                            "Overall": 0.04084189236164093
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": -0.09992043673992157,
+                            "POSITIVE": 0.04298138618469238,
+                            "Overall": 0.14290182292461395
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "than": 0.36538153886795044
+                    }
+                ]
+            },
+            "necessary": {}
+        }
+    },
+    {
+        "sentence": [
+            "not frightening in the least and barely comprehensible"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "NEGATIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "comprehensible": {
+                            "NEGATIVE": -0.017998436465859413,
+                            "POSITIVE": 0.026781350374221802,
+                            "Overall": -0.044779784977436066
+                        }
+                    },
+                    {
+                        "barely": {
+                            "NEGATIVE": -0.007197520695626736,
+                            "POSITIVE": 0.0032649668864905834,
+                            "Overall": -0.010462487116456032
+                        }
+                    },
+                    {
+                        "not": {
+                            "NEGATIVE": 0.5278071761131287,
+                            "POSITIVE": -0.4178711175918579,
+                            "Overall": 0.9456782937049866
+                        }
+                    },
+                    {
+                        "and": {
+                            "NEGATIVE": -0.0340619720518589,
+                            "POSITIVE": 0.036187320947647095,
+                            "Overall": -0.0702492892742157
+                        }
+                    },
+                    {
+                        "frightening": {
+                            "NEGATIVE": -0.006200996693223715,
+                            "POSITIVE": 0.0015487882774323225,
+                            "Overall": -0.007749784737825394
+                        }
+                    },
+                    {
+                        "least": {
+                            "NEGATIVE": -0.015196766704320908,
+                            "POSITIVE": 0.003980650100857019,
+                            "Overall": -0.01917741633951664
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": 0.26937904953956604,
+                            "POSITIVE": -0.2414221614599228,
+                            "Overall": 0.5108011960983276
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "not": 0.9456782937049866
+                    }
+                ]
+            },
+            "necessary": {
+                "1-ngrams": [
+                    {
+                        "not": 0.9456782937049866
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "sentence": [
+            "let's start with all the problems\u0097the acting especially from the lead professor was very very bad"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "NEGATIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "problems\u0097the": {
+                            "NEGATIVE": -0.056834518909454346,
+                            "POSITIVE": 0.04137297347187996,
+                            "Overall": -0.098207488656044
+                        }
+                    },
+                    {
+                        "let's": {
+                            "NEGATIVE": 0.09314917773008347,
+                            "POSITIVE": -0.07917551696300507,
+                            "Overall": 0.17232468724250793
+                        }
+                    },
+                    {
+                        "bad": {
+                            "NEGATIVE": 0.4199444353580475,
+                            "POSITIVE": -0.2726542353630066,
+                            "Overall": 0.6925987005233765
+                        }
+                    },
+                    {
+                        "very": {
+                            "NEGATIVE": -0.00033040624111890793,
+                            "POSITIVE": -0.005729231052100658,
+                            "Overall": 0.0053988248109817505
+                        }
+                    },
+                    {
+                        "professor": {
+                            "NEGATIVE": -0.04056791961193085,
+                            "POSITIVE": 0.04738227277994156,
+                            "Overall": -0.0879501923918724
+                        }
+                    },
+                    {
+                        "with": {
+                            "NEGATIVE": -0.0009791895281523466,
+                            "POSITIVE": -0.010951794683933258,
+                            "Overall": 0.009972604922950268
+                        }
+                    },
+                    {
+                        "especially": {
+                            "NEGATIVE": -0.0023280519526451826,
+                            "POSITIVE": 0.00300484336912632,
+                            "Overall": -0.005332895554602146
+                        }
+                    },
+                    {
+                        "all": {
+                            "NEGATIVE": -0.005461788270622492,
+                            "POSITIVE": -0.0005353406886570156,
+                            "Overall": -0.004926447756588459
+                        }
+                    },
+                    {
+                        "start": {
+                            "NEGATIVE": 0.011840136721730232,
+                            "POSITIVE": -0.010958266444504261,
+                            "Overall": 0.022798404097557068
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": 0.23095902800559998,
+                            "POSITIVE": -0.22977809607982635,
+                            "Overall": 0.46073710918426514
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "bad": 0.6925987005233765
+                    }
+                ]
+            },
+            "necessary": {
+                "1-ngrams": [
+                    {
+                        "bad": 0.6925987005233765
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "sentence": [
+            "lately they have been extremely nice and helpful on the phone"
+        ],
+        "target_class": "POSITIVE",
+        "predicted_class": "POSITIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "nice": {
+                            "NEGATIVE": -0.4310196340084076,
+                            "POSITIVE": 0.5457998514175415,
+                            "Overall": 0.9768195152282715
+                        }
+                    },
+                    {
+                        "lately": {
+                            "NEGATIVE": -0.02130749076604843,
+                            "POSITIVE": 0.02809673734009266,
+                            "Overall": 0.04940422624349594
+                        }
+                    },
+                    {
+                        "been": {
+                            "NEGATIVE": 0.013442274183034897,
+                            "POSITIVE": -0.011821364052593708,
+                            "Overall": -0.02526363730430603
+                        }
+                    },
+                    {
+                        "extremely": {
+                            "NEGATIVE": -0.026036208495497704,
+                            "POSITIVE": 0.030351605266332626,
+                            "Overall": 0.05638781189918518
+                        }
+                    },
+                    {
+                        "they": {
+                            "NEGATIVE": -0.006371688097715378,
+                            "POSITIVE": 0.005765456240624189,
+                            "Overall": 0.012137144804000854
+                        }
+                    },
+                    {
+                        "helpful": {
+                            "NEGATIVE": 0.006572094280272722,
+                            "POSITIVE": -0.0038991770707070827,
+                            "Overall": -0.010471271350979805
+                        }
+                    },
+                    {
+                        "and": {
+                            "NEGATIVE": -0.014256913214921951,
+                            "POSITIVE": 0.018825698643922806,
+                            "Overall": 0.03308261185884476
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": -0.24264904856681824,
+                            "POSITIVE": 0.14470402896404266,
+                            "Overall": 0.3873530626296997
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "nice": 0.9768195152282715
+                    }
+                ]
+            },
+            "necessary": {
+                "1-ngrams": [
+                    {
+                        "nice": 0.9768195152282715
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "sentence": [
+            "however the riingtones are not the best and neither are the games"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "NEGATIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "games": {
+                            "NEGATIVE": -0.0008122248109430075,
+                            "POSITIVE": 0.0036403213161975145,
+                            "Overall": -0.004452546127140522
+                        }
+                    },
+                    {
+                        "best": {
+                            "NEGATIVE": -0.19543936848640442,
+                            "POSITIVE": 0.17269164323806763,
+                            "Overall": -0.36813101172447205
+                        }
+                    },
+                    {
+                        "not": {
+                            "NEGATIVE": 0.33787858486175537,
+                            "POSITIVE": -0.28069549798965454,
+                            "Overall": 0.6185740828514099
+                        }
+                    },
+                    {
+                        "riingtones": {
+                            "NEGATIVE": -0.025418616831302643,
+                            "POSITIVE": 0.03021182306110859,
+                            "Overall": -0.05563043802976608
+                        }
+                    },
+                    {
+                        "and": {
+                            "NEGATIVE": -0.026528574526309967,
+                            "POSITIVE": 0.029816241934895515,
+                            "Overall": -0.05634481459856033
+                        }
+                    },
+                    {
+                        "neither": {
+                            "NEGATIVE": 0.08680951595306396,
+                            "POSITIVE": -0.08638349920511246,
+                            "Overall": 0.17319300770759583
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": 0.10986290872097015,
+                            "POSITIVE": -0.09477399289608002,
+                            "Overall": 0.20463690161705017
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "not": 0.6185741424560547
+                    }
+                ]
+            },
+            "necessary": {
+                "1-ngrams": [
+                    {
+                        "not": 0.6185741424560547
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "sentence": [
+            "i probably would not go here again"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "NEGATIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "go": {
+                            "NEGATIVE": -0.08835040777921677,
+                            "POSITIVE": 0.06210856884717941,
+                            "Overall": -0.15045897662639618
+                        }
+                    },
+                    {
+                        "here": {
+                            "NEGATIVE": -0.0334627702832222,
+                            "POSITIVE": 0.025845935568213463,
+                            "Overall": -0.05930870771408081
+                        }
+                    },
+                    {
+                        "probably": {
+                            "NEGATIVE": 0.35648226737976074,
+                            "POSITIVE": -0.2721312940120697,
+                            "Overall": 0.6286135911941528
+                        }
+                    },
+                    {
+                        "i": {
+                            "NEGATIVE": 0.00021817264496348798,
+                            "POSITIVE": -0.00015398779942188412,
+                            "Overall": 0.00037216045893728733
+                        }
+                    },
+                    {
+                        "not": {
+                            "NEGATIVE": 0.25431159138679504,
+                            "POSITIVE": -0.22275078296661377,
+                            "Overall": 0.4770623743534088
+                        }
+                    },
+                    {
+                        "again": {
+                            "NEGATIVE": 1.7582062355359085e-05,
+                            "POSITIVE": -0.005407108459621668,
+                            "Overall": 0.005424690432846546
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": 0.20051056146621704,
+                            "POSITIVE": -0.18348929286003113,
+                            "Overall": 0.38399985432624817
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "probably": 0.6286135911941528
+                    }
+                ]
+            },
+            "necessary": {}
+        }
+    },
+    {
+        "sentence": [
+            "great pocket pc phone combination"
+        ],
+        "target_class": "POSITIVE",
+        "predicted_class": "POSITIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "great": {
+                            "NEGATIVE": -0.4153534770011902,
+                            "POSITIVE": 0.5330857038497925,
+                            "Overall": 0.9484391808509827
+                        }
+                    },
+                    {
+                        "pocket": {
+                            "NEGATIVE": -0.0050750114023685455,
+                            "POSITIVE": 0.016291365027427673,
+                            "Overall": 0.02136637642979622
+                        }
+                    },
+                    {
+                        "pc": {
+                            "NEGATIVE": -0.009620475582778454,
+                            "POSITIVE": 0.013484449125826359,
+                            "Overall": 0.023104924708604813
+                        }
+                    },
+                    {
+                        "combination": {
+                            "NEGATIVE": 0.008074719458818436,
+                            "POSITIVE": -0.00022419029846787453,
+                            "Overall": -0.008298909291625023
+                        }
+                    },
+                    {
+                        "phone": {
+                            "NEGATIVE": -0.0003323411801829934,
+                            "POSITIVE": 0.00026477721985429525,
+                            "Overall": 0.0005971184000372887
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": -0.21819108724594116,
+                            "POSITIVE": 0.11978527158498764,
+                            "Overall": 0.3379763662815094
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "great": 0.9484391212463379
+                    }
+                ]
+            },
+            "necessary": {
+                "1-ngrams": [
+                    {
+                        "great": 0.9484391212463379
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "sentence": [
+            "1 10 and only because there is no setting for 0 10"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "NEGATIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "10": {
+                            "NEGATIVE": -0.23240886628627777,
+                            "POSITIVE": 0.25428006052970886,
+                            "Overall": -0.48668891191482544
+                        }
+                    },
+                    {
+                        "only": {
+                            "NEGATIVE": 0.04206812009215355,
+                            "POSITIVE": -0.028572088107466698,
+                            "Overall": 0.0706402063369751
+                        }
+                    },
+                    {
+                        "0": {
+                            "NEGATIVE": -0.0036709371488541365,
+                            "POSITIVE": 0.0026150476187467575,
+                            "Overall": -0.006285985000431538
+                        }
+                    },
+                    {
+                        "there": {
+                            "NEGATIVE": 0.09096373617649078,
+                            "POSITIVE": -0.07240471988916397,
+                            "Overall": 0.16336846351623535
+                        }
+                    },
+                    {
+                        "and": {
+                            "NEGATIVE": -0.027632437646389008,
+                            "POSITIVE": 0.02922726981341839,
+                            "Overall": -0.056859709322452545
+                        }
+                    },
+                    {
+                        "no": {
+                            "NEGATIVE": 0.24388724565505981,
+                            "POSITIVE": -0.2086167186498642,
+                            "Overall": 0.4525039792060852
+                        }
+                    },
+                    {
+                        "1": {
+                            "NEGATIVE": -0.0033332558814436197,
+                            "POSITIVE": 0.003154017264023423,
+                            "Overall": -0.006487273145467043
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": 0.06532595306634903,
+                            "POSITIVE": -0.04973737895488739,
+                            "Overall": 0.11506333202123642
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "1-ngrams": [
+                    {
+                        "there": 0.16336846351623535
+                    },
+                    {
+                        "no": 0.4525039792060852
+                    }
+                ]
+            },
+            "necessary": {
+                "1-ngrams": [
+                    {
+                        "no": 0.4525039792060852
+                    },
+                    {
+                        "there": 0.16336846351623535
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "sentence": [
+            "it is shameful"
+        ],
+        "target_class": "NEGATIVE",
+        "predicted_class": "NEGATIVE",
+        "features": {
+            "all": {
+                "1-ngrams": [
+                    {
+                        "shameful": {
+                            "NEGATIVE": 0.01652386784553528,
+                            "POSITIVE": 0.007578821387141943,
+                            "Overall": 0.008945045992732048
+                        }
+                    },
+                    {
+                        "is": {
+                            "NEGATIVE": -0.026865167543292046,
+                            "POSITIVE": 0.020822618156671524,
+                            "Overall": -0.04768778383731842
+                        }
+                    },
+                    {
+                        "it": {
+                            "NEGATIVE": 7.836412987671793e-05,
+                            "POSITIVE": -0.0007382918847724795,
+                            "Overall": 0.0008166560437530279
+                        }
+                    }
+                ],
+                "0-ngrams": [
+                    {
+                        "": {
+                            "NEGATIVE": 0.061573535203933716,
+                            "POSITIVE": -0.12078729271888733,
+                            "Overall": 0.18236082792282104
+                        }
+                    }
+                ]
+            },
+            "sufficient": {
+                "0-ngrams": [
+                    {
+                        "": 0.18236082792282104
+                    }
+                ]
+            },
+            "necessary": {
+                "0-ngrams": [
+                    {
+                        "": 0.18236082792282104
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,2441 @@
+[
+    {
+        "sentence": [
+            "of the horses is a low point in cinematic history watching and knowing that some of the horses died to achieve vision for the film is very sad finally after the big battle we have an while it is short it also seemed completely unnecessary and vague we see kristofferson on a fancy so we can assume that he's finally putting some of that education to work for himself we also see a woman who appears to be one that kris looked at a couple times during the prologue most importantly nothing is said and you have no idea what the final outcome i read up on it myself and found that the film often got the facts wrong overall to say the film is long and needed tons more editing was like saying wwii was a minor well i've certainly seen a lot worse but if you factor in the cost of production i truly think it might just be one of the worst films in history finally when a film has this much explicit nudity i warn parents however as no child could sit through this film even with a promise of sex the warning is not necessary"
+        ],
+        "target_class": 0,
+        "predicted_class": 0,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "final": {
+                        "0": -0.0015089086955413222,
+                        "1": 0.0015821108827367425
+                    },
+                    "couple": {
+                        "0": 0.00581075856462121,
+                        "1": -0.00637503108009696
+                    },
+                    "point": {
+                        "0": 0.006107761058956385,
+                        "1": -0.004299967084079981
+                    },
+                    "editing": {
+                        "0": 0.002624355722218752,
+                        "1": -0.002086970489472151
+                    },
+                    "wwii": {
+                        "0": -0.01826260657981038,
+                        "1": 0.017079728888347745
+                    },
+                    "vision": {
+                        "0": -0.012672819197177887,
+                        "1": 0.012843603268265724
+                    },
+                    "worse": {
+                        "0": 0.004979708086466417,
+                        "1": -0.004657923418562859
+                    },
+                    "unnecessary": {
+                        "0": 0.008644470945000648,
+                        "1": -0.008181973360478878
+                    },
+                    "nudity": {
+                        "0": 0.026072358712553978,
+                        "1": -0.019836341962218285
+                    },
+                    "lot": {
+                        "0": -0.006235897541046143,
+                        "1": 0.003822699189186096
+                    },
+                    "worst": {
+                        "0": 0.03265894949436188,
+                        "1": -0.029158640652894974
+                    },
+                    "wrong": {
+                        "0": -0.0003125973744317889,
+                        "1": 0.00023440098448190838
+                    },
+                    "you": {
+                        "0": 0.0005842277314513922,
+                        "1": 1.670804340392351e-05
+                    },
+                    "times": {
+                        "0": -0.00014240553718991578,
+                        "1": -0.003452879609540105
+                    },
+                    "nothing": {
+                        "0": 0.00811342685483396,
+                        "1": -0.004328759619966149
+                    },
+                    "knowing": {
+                        "0": -0.0036721916403621435,
+                        "1": 0.0023939821403473616
+                    }
+                },
+                "2-grams": {
+                    "couple times": {
+                        "0": -0.004552784841507673,
+                        "1": 0.0024463050067424774
+                    },
+                    "vague we": {
+                        "0": 0.019648029236122966,
+                        "1": -0.019577612169086933
+                    },
+                    "most importantly": {
+                        "0": -0.012963254004716873,
+                        "1": 0.012374727986752987
+                    },
+                    "finally putting": {
+                        "0": 0.009561564773321152,
+                        "1": -0.012769998982548714
+                    },
+                    "lot worse": {
+                        "0": 0.021336130797863007,
+                        "1": -0.02187834493815899
+                    },
+                    "explicit nudity": {
+                        "0": -0.013714926317334175,
+                        "1": 0.019031377509236336
+                    },
+                    "also see": {
+                        "0": -0.007772370241582394,
+                        "1": 0.007016165181994438
+                    },
+                    "minor well": {
+                        "0": -0.01130994874984026,
+                        "1": 0.010366998612880707
+                    },
+                    "warning is": {
+                        "0": -0.008499935269355774,
+                        "1": 0.010360022075474262
+                    },
+                    "assume that": {
+                        "0": 0.015471486374735832,
+                        "1": -0.017348768189549446
+                    },
+                    "truly think": {
+                        "0": -0.014869324862957,
+                        "1": 0.016747040674090385
+                    },
+                    "that education": {
+                        "0": -0.03394617512822151,
+                        "1": 0.03377196565270424
+                    },
+                    "worst films": {
+                        "0": 0.03471485897898674,
+                        "1": -0.03204679861664772
+                    },
+                    "while it": {
+                        "0": -0.009482684545218945,
+                        "1": 0.010597748681902885
+                    },
+                    "no idea": {
+                        "0": 0.007171957287937403,
+                        "1": -0.007447720970958471
+                    },
+                    "also seemed": {
+                        "0": 0.021875621750950813,
+                        "1": -0.018835535272955894
+                    },
+                    "very sad": {
+                        "0": 0.013232599012553692,
+                        "1": -0.013923822902143002
+                    },
+                    "appears to": {
+                        "0": 0.02613486722111702,
+                        "1": -0.03184667229652405
+                    },
+                    "importantly nothing": {
+                        "0": 0.027290906757116318,
+                        "1": -0.025984855368733406
+                    }
+                },
+                "3-grams": {
+                    "is not necessary": {
+                        "0": -0.028352398425340652,
+                        "1": 0.02975141443312168
+                    },
+                    "the film often": {
+                        "0": -0.03484261082485318,
+                        "1": 0.03826283477246761
+                    },
+                    "this film even": {
+                        "0": 0.021643219515681267,
+                        "1": -0.01994231715798378
+                    },
+                    "minor well i've": {
+                        "0": -0.009220444597303867,
+                        "1": 0.009061669930815697
+                    },
+                    "completely unnecessary and": {
+                        "0": 0.03810584172606468,
+                        "1": -0.0408066026866436
+                    },
+                    "he's finally putting": {
+                        "0": 0.02993116434663534,
+                        "1": -0.032143205404281616
+                    },
+                    "achieve vision for": {
+                        "0": -0.027266548946499825,
+                        "1": 0.030151563696563244
+                    },
+                    "as no child": {
+                        "0": 0.017968636006116867,
+                        "1": -0.017352962866425514
+                    },
+                    "production i truly": {
+                        "0": 0.019758710637688637,
+                        "1": -0.01985328085720539
+                    },
+                    "some of the": {
+                        "0": -0.009211375378072262,
+                        "1": 0.01302291639149189
+                    },
+                    "very sad finally": {
+                        "0": 0.003648777725175023,
+                        "1": -0.0037645138800144196
+                    },
+                    "the worst films": {
+                        "0": 0.030211808159947395,
+                        "1": -0.03534349799156189
+                    },
+                    "of the worst": {
+                        "0": 0.0451606884598732,
+                        "1": -0.04503902792930603
+                    },
+                    "sit through this": {
+                        "0": 0.048873450607061386,
+                        "1": -0.05557286739349365
+                    },
+                    "if you factor": {
+                        "0": -0.021353721618652344,
+                        "1": 0.01945248246192932
+                    },
+                    "just be one": {
+                        "0": 0.0250258669257164,
+                        "1": -0.026014089584350586
+                    },
+                    "of the horses": {
+                        "0": -0.026740316301584244,
+                        "1": 0.030897466465830803
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "nudity": 0.026072358712553978,
+                    "worst": 0.03265894949436188
+                },
+                "2-grams": {
+                    "vague we": 0.01745607517659664,
+                    "lot worse": 0.021336130797863007,
+                    "assume that": 0.015471486374735832,
+                    "worst films": 0.03471485897898674,
+                    "also seemed": 0.021875621750950813,
+                    "appears to": 0.02613486722111702,
+                    "importantly nothing": 0.027290906757116318
+                },
+                "3-grams": {
+                    "this film even": 0.021643219515681267,
+                    "completely unnecessary and": 0.03810584172606468,
+                    "he's finally putting": 0.02993116434663534,
+                    "as no child": 0.017968636006116867,
+                    "production i truly": 0.019758710637688637,
+                    "the worst films": 0.030211808159947395,
+                    "of the worst": 0.0451606884598732,
+                    "sit through this": 0.048873450607061386,
+                    "just be one": 0.0250258669257164
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "i watched this movie in 75 and this movie was a kind of open mind to me about how important is to care the and the wild life when i got a dog in i called him in movie dog to never forget this movie by the way i have a copy this movie but is in portuguese language and the quality is not so good like a dvd or a new vhs i recorded almost 20 years ago and in so the quality is not so good if somebody wish a copy i'll try to dvd and i can send for you ok a great movie and i agree that is a movie to be always watched brazil"
+        ],
+        "target_class": 1,
+        "predicted_class": 1,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "ago": {
+                        "0": -0.0037009590305387974,
+                        "1": 0.004405454266816378
+                    },
+                    "20": {
+                        "0": 0.01206256658770144,
+                        "1": -0.007711479440331459
+                    },
+                    "75": {
+                        "0": 0.009976176574127749,
+                        "1": -0.009823712956858799
+                    },
+                    "wild": {
+                        "0": 0.000906701956409961,
+                        "1": -0.0008469367166981101
+                    },
+                    "brazil": {
+                        "0": -0.01051435898989439,
+                        "1": 0.01467058714479208
+                    },
+                    "great": {
+                        "0": -0.022415824234485626,
+                        "1": 0.022204512730240822
+                    },
+                    "movie": {
+                        "0": 0.0019187305588275194,
+                        "1": -0.003448207164183259
+                    },
+                    "but": {
+                        "0": 0.00041365696233697236,
+                        "1": -0.0002953918883576989
+                    },
+                    "portuguese": {
+                        "0": -0.01577876930241473,
+                        "1": 0.014999274382716976
+                    },
+                    "vhs": {
+                        "0": -0.030082174576818943,
+                        "1": 0.022493824362754822
+                    },
+                    "dvd": {
+                        "0": -0.0047312406823039055,
+                        "1": 0.006974370684474707
+                    },
+                    "you": {
+                        "0": -0.0019377509597688913,
+                        "1": 0.0018533769762143493
+                    },
+                    "open": {
+                        "0": -0.00037509368848986924,
+                        "1": 0.0005324147059582174
+                    },
+                    "life": {
+                        "0": -0.005078010261058807,
+                        "1": 0.006604308262467384
+                    }
+                },
+                "2-grams": {
+                    "brazil": {
+                        "0": -0.009531721472740173,
+                        "1": -0.005054248496890068
+                    },
+                    "how important": {
+                        "0": 0.004890222102403641,
+                        "1": -0.0076660518534481525
+                    },
+                    "you ok": {
+                        "0": 0.022308120969682932,
+                        "1": -0.020045315846800804
+                    },
+                    "recorded almost": {
+                        "0": 0.006061231717467308,
+                        "1": -0.0045010908506810665
+                    },
+                    "open mind": {
+                        "0": -0.02647937461733818,
+                        "1": 0.02987583912909031
+                    },
+                    "dvd and": {
+                        "0": -0.03921615332365036,
+                        "1": 0.04221474938094616
+                    },
+                    "but is": {
+                        "0": -0.025874469429254532,
+                        "1": 0.024405036121606827
+                    },
+                    "a great": {
+                        "0": -0.02853323332965374,
+                        "1": 0.02976663038134575
+                    },
+                    "agree that": {
+                        "0": -0.00900172907859087,
+                        "1": 0.012474434450268745
+                    },
+                    "or a": {
+                        "0": 0.014273219741880894,
+                        "1": -0.016891764476895332
+                    },
+                    "called him": {
+                        "0": -0.022867891937494278,
+                        "1": 0.027158573269844055
+                    },
+                    "years ago": {
+                        "0": 0.006828792858868837,
+                        "1": -0.006817800924181938
+                    },
+                    "i called": {
+                        "0": 0.003359305439516902,
+                        "1": -0.010079365223646164
+                    },
+                    "mind to": {
+                        "0": 0.004621293395757675,
+                        "1": -0.006115296855568886
+                    },
+                    "75 and": {
+                        "0": 0.007817395962774754,
+                        "1": -0.010514015331864357
+                    }
+                },
+                "3-grams": {
+                    "is a movie": {
+                        "0": -0.029174567200243473,
+                        "1": 0.044467868283391
+                    },
+                    "i got a": {
+                        "0": -0.021970394998788834,
+                        "1": 0.027730252593755722
+                    },
+                    "the way i": {
+                        "0": 0.020426008850336075,
+                        "1": -0.017843613401055336
+                    },
+                    "dvd and i": {
+                        "0": -0.03668006882071495,
+                        "1": 0.04521453008055687
+                    },
+                    "forget this movie": {
+                        "0": 0.026269921101629734,
+                        "1": -0.02777090109884739
+                    },
+                    "and i agree": {
+                        "0": -0.00424682442098856,
+                        "1": 0.006285793147981167
+                    },
+                    "great movie and": {
+                        "0": -0.058747900649905205,
+                        "1": 0.06987622939050198
+                    },
+                    "was a kind": {
+                        "0": 0.023346364498138428,
+                        "1": -0.025054829195141792
+                    },
+                    "is in portuguese": {
+                        "0": -0.005155255552381277,
+                        "1": 0.010150487534701824
+                    },
+                    "always watched brazil": {
+                        "0": 0.023952530696988106,
+                        "1": -0.037819381803274155
+                    },
+                    "dvd or a": {
+                        "0": 0.011753606610000134,
+                        "1": -0.015417104586958885
+                    },
+                    "the quality is": {
+                        "0": 0.021654119715094566,
+                        "1": -0.02469104900956154
+                    },
+                    "copy i'll try": {
+                        "0": 0.024191325530409813,
+                        "1": -0.023828530684113503
+                    },
+                    "and i can": {
+                        "0": -0.02141006849706173,
+                        "1": 0.022167859598994255
+                    },
+                    "copy this movie": {
+                        "0": 0.013355380855500698,
+                        "1": -0.018514089286327362
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "great": 0.022204512730240822
+                },
+                "2-grams": {
+                    "brazil": 0.019807586446404457,
+                    "open mind": 0.02987583912909031,
+                    "dvd and": 0.04221474938094616,
+                    "but is": 0.024405036121606827,
+                    "a great": 0.02976663038134575,
+                    "called him": 0.027158573269844055
+                },
+                "3-grams": {
+                    "is a movie": 0.06399429962038994,
+                    "i got a": 0.027730252593755722,
+                    "dvd and i": 0.04521453008055687,
+                    "great movie and": 0.06987622939050198,
+                    "and i agree": 0.006285793147981167,
+                    "and i can": 0.022167859598994255
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "commercials try to show how unique and funny a show can be yet not only didn't the commercials this new show have the slightest of humor to me i've not spoken with anyone who found the commercials amusing either i don't recall ever seeing a pilot so devoid of cleverness or humor the characters were for the most part especially which is astonishing she would agree to be in a of a show like this the few moments where the characters were slightly were considerably hackneyed and trite rare is the show with no qualities at all and this is not one of them and kim has exactly one redeeming quality and that's blair despite wearing outfits and acting like a pitiful whiny stupid excuse for a young woman who seems like a cross between britney spears paris hilton and kim is still nice to look at but if you want to look at go rent you'll at least maintain a of respect for her instead of this character into your brain to associate with her all in all and kim is a waste and truly the worst that tv is or ever has been it sets a new low"
+        ],
+        "target_class": 0,
+        "predicted_class": 0,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "astonishing": {
+                        "0": -0.014436186174862087,
+                        "1": 0.01501640264177695
+                    },
+                    "trite": {
+                        "0": 0.011592310853302479,
+                        "1": -0.010157582350075245
+                    },
+                    "worst": {
+                        "0": 0.0324537199921906,
+                        "1": -0.028201207518577576
+                    },
+                    "waste": {
+                        "0": 0.024963460862636566,
+                        "1": -0.017004290595650673
+                    },
+                    "brain": {
+                        "0": -0.0035302198957651854,
+                        "1": 0.005204938817769289
+                    },
+                    "commercials": {
+                        "0": 0.0,
+                        "1": 0.0
+                    },
+                    "pitiful": {
+                        "0": 0.005284686107188463,
+                        "1": -0.004605104681104422
+                    },
+                    "low": {
+                        "0": 0.002280803630128503,
+                        "1": -0.002622411120682955
+                    },
+                    "hackneyed": {
+                        "0": 0.010505648329854012,
+                        "1": -0.00863034650683403
+                    },
+                    "britney": {
+                        "0": -0.0007701634895056486,
+                        "1": 0.000623177969828248
+                    },
+                    "you": {
+                        "0": -0.0020705813076347113,
+                        "1": 0.0019099550554528832
+                    },
+                    "humor": {
+                        "0": -0.004551274992991239,
+                        "1": 0.004580424167215824
+                    },
+                    "nice": {
+                        "0": -0.0023589071352034807,
+                        "1": 0.0031591516453772783
+                    },
+                    "qualities": {
+                        "0": -0.002020338550209999,
+                        "1": 0.0015540788881480694
+                    },
+                    "rare": {
+                        "0": 0.006669164169579744,
+                        "1": -0.0020541884005069733
+                    },
+                    "no": {
+                        "0": 0.00300940521992743,
+                        "1": -0.002760603791102767
+                    }
+                },
+                "2-grams": {
+                    "character into": {
+                        "0": -0.0025408039800822735,
+                        "1": 0.001176470541395247
+                    },
+                    "considerably hackneyed": {
+                        "0": 0.06771967932581902,
+                        "1": -0.06396699137985706
+                    },
+                    "is astonishing": {
+                        "0": -0.011026733554899693,
+                        "1": 0.009807553142309189
+                    },
+                    "brain to": {
+                        "0": 0.014299390837550163,
+                        "1": -0.022288823500275612
+                    },
+                    "devoid of": {
+                        "0": 0.0031781697180122137,
+                        "1": -0.0027550652157515287
+                    },
+                    "or ever": {
+                        "0": -0.012698488309979439,
+                        "1": 0.014753349125385284
+                    },
+                    "is still": {
+                        "0": -0.007711467333137989,
+                        "1": 0.010604451410472393
+                    },
+                    "be yet": {
+                        "0": -0.01812123879790306,
+                        "1": 0.019010189920663834
+                    },
+                    "this is": {
+                        "0": -0.005394733045250177,
+                        "1": 0.008154666051268578
+                    },
+                    "commercials this": {
+                        "0": 0.011190654709935188,
+                        "1": -0.013087966479361057
+                    },
+                    "a pilot": {
+                        "0": -0.016830017790198326,
+                        "1": 0.01874665915966034
+                    },
+                    "part especially": {
+                        "0": -0.030499711632728577,
+                        "1": 0.026909733191132545
+                    },
+                    "between britney": {
+                        "0": 0.02415020763874054,
+                        "1": -0.02002708986401558
+                    },
+                    "with her": {
+                        "0": -0.009431110695004463,
+                        "1": 0.010224511846899986
+                    },
+                    "moments where": {
+                        "0": 0.005821426399052143,
+                        "1": -0.004640168976038694
+                    },
+                    "so devoid": {
+                        "0": 0.02577652968466282,
+                        "1": -0.02221655286848545
+                    },
+                    "of cleverness": {
+                        "0": 0.031150873750448227,
+                        "1": -0.0325249508023262
+                    },
+                    "whiny stupid": {
+                        "0": 0.021847542375326157,
+                        "1": -0.022697031497955322
+                    },
+                    "this new": {
+                        "0": 0.016839157789945602,
+                        "1": -0.015318566933274269
+                    }
+                },
+                "3-grams": {
+                    "how unique and": {
+                        "0": -0.041909150779247284,
+                        "1": 0.04437820613384247
+                    },
+                    "is astonishing she": {
+                        "0": -0.05587917938828468,
+                        "1": 0.06031958945095539
+                    },
+                    "is not one": {
+                        "0": 0.019855787977576256,
+                        "1": -0.018580183386802673
+                    },
+                    "whiny stupid excuse": {
+                        "0": 0.03174262493848801,
+                        "1": -0.03295270726084709
+                    },
+                    "between britney spears": {
+                        "0": 0.021852754056453705,
+                        "1": -0.020576929673552513
+                    },
+                    "redeeming quality and": {
+                        "0": -0.018350619822740555,
+                        "1": 0.024375533685088158
+                    },
+                    "which is astonishing": {
+                        "0": -0.03132999688386917,
+                        "1": 0.031246190890669823
+                    },
+                    "were considerably hackneyed": {
+                        "0": 0.030751721933484077,
+                        "1": -0.027087241411209106
+                    },
+                    "exactly one redeeming": {
+                        "0": 0.05194120481610298,
+                        "1": -0.05226695165038109
+                    },
+                    "instead of this": {
+                        "0": -0.007090664468705654,
+                        "1": 0.009366338141262531
+                    },
+                    "considerably hackneyed and": {
+                        "0": 0.027237881906330585,
+                        "1": -0.024292895570397377
+                    },
+                    "qualities at all": {
+                        "0": 0.03409014269709587,
+                        "1": -0.03518466278910637
+                    },
+                    "one redeeming quality": {
+                        "0": 0.03840894624590874,
+                        "1": -0.03862929344177246
+                    },
+                    "spears paris hilton": {
+                        "0": -0.024883419275283813,
+                        "1": 0.020403152331709862
+                    },
+                    "this the few": {
+                        "0": -0.013466501608490944,
+                        "1": 0.013089777901768684
+                    },
+                    "a waste and": {
+                        "0": 0.014109525829553604,
+                        "1": -0.01703699491918087
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "waste": 0.024963460862636566,
+                    "worst": 0.0324537199921906
+                },
+                "2-grams": {
+                    "considerably hackneyed": 0.06771967932581902,
+                    "brain to": 0.014299390837550163,
+                    "between britney": 0.02415020763874054,
+                    "so devoid": 0.02577652968466282,
+                    "of cleverness": 0.031150873750448227,
+                    "whiny stupid": 0.021847542375326157,
+                    "this new": 0.016839157789945602
+                },
+                "3-grams": {
+                    "is not one": 0.019855787977576256,
+                    "whiny stupid excuse": 0.03174262493848801,
+                    "between britney spears": 0.021852754056453705,
+                    "were considerably hackneyed": 0.030751721933484077,
+                    "exactly one redeeming": 0.05194120481610298,
+                    "qualities at all": 0.03409014269709587,
+                    "one redeeming quality": 0.03840894624590874,
+                    "considerably hackneyed and": 0.027237881906330585,
+                    "a waste and": 0.014109525829553604
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "of the film like it should almost seems to hand the movie in a last effort to stop from but quite frankly looks deeply uncomfortable possibly waiting for the next assault of bad acting next to and even an eccentric turn from him fails to the film if the acting was better this movie would have been okay hell it might have been pretty enjoyable but the lack of character makes the movie a affair and makes the horror element seem tacked on and tasteless instead of an organic part of the film i found the alien torture rape scenes a little difficult to stomach already but the fact that the characters were so lacking made them seem gratuitous as well as unpleasant leaving a nasty taste in the mouth so if you really like sci fi and don't have a problem with bad acting pedestrian pacing and a really nasty rape scene will probably be your cup of tea but since i do i'm probably never going to watch it again once was enough on the plus side this is the only sci fi movie ever bothered to make so he obviously wasn't really that pleased with it himself"
+        ],
+        "target_class": 0,
+        "predicted_class": 0,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "even": {
+                        "0": -0.0015343945124186575,
+                        "1": -0.0013206441653892398
+                    },
+                    "better": {
+                        "0": 0.006450323853641748,
+                        "1": -0.006695182528346777
+                    },
+                    "make": {
+                        "0": 0.00369994412176311,
+                        "1": -0.002904199529439211
+                    },
+                    "fails": {
+                        "0": 0.019925540313124657,
+                        "1": -0.014591318555176258
+                    },
+                    "eccentric": {
+                        "0": -0.005979565903544426,
+                        "1": 0.0062181465327739716
+                    },
+                    "enjoyable": {
+                        "0": -0.008674128912389278,
+                        "1": 0.008565590716898441
+                    },
+                    "movie": {
+                        "0": 0.004329594783484936,
+                        "1": -0.004571126773953438
+                    },
+                    "looks": {
+                        "0": 0.00643455283716321,
+                        "1": -0.005942529998719692
+                    },
+                    "gratuitous": {
+                        "0": 0.004666754975914955,
+                        "1": -0.0037308279424905777
+                    },
+                    "tasteless": {
+                        "0": 0.017717214301228523,
+                        "1": -0.01599421538412571
+                    },
+                    "deeply": {
+                        "0": -0.004993705544620752,
+                        "1": 0.0036538378335535526
+                    },
+                    "torture": {
+                        "0": 0.015030894428491592,
+                        "1": -0.013350928202271461
+                    },
+                    "hell": {
+                        "0": -0.0006058734143152833,
+                        "1": 0.0003583802899811417
+                    },
+                    "leaving": {
+                        "0": -0.004956136457622051,
+                        "1": 0.004441685974597931
+                    },
+                    "last": {
+                        "0": -0.006041764747351408,
+                        "1": 0.007244138512760401
+                    },
+                    "obviously": {
+                        "0": -0.009733368642628193,
+                        "1": 0.008346007205545902
+                    },
+                    "you": {
+                        "0": 0.0027788900770246983,
+                        "1": -0.001914100255817175
+                    },
+                    "tacked": {
+                        "0": 0.006692590191960335,
+                        "1": -0.006265709176659584
+                    },
+                    "pleased": {
+                        "0": -0.013575534336268902,
+                        "1": 0.011130605824291706
+                    }
+                },
+                "2-grams": {
+                    "character makes": {
+                        "0": -0.006199326366186142,
+                        "1": 0.003189838957041502
+                    },
+                    "acting pedestrian": {
+                        "0": 0.05771597474813461,
+                        "1": -0.05523820221424103
+                    },
+                    "quite frankly": {
+                        "0": -0.008498790673911572,
+                        "1": 0.007702935952693224
+                    },
+                    "element seem": {
+                        "0": 0.011781083419919014,
+                        "1": -0.014763901010155678
+                    },
+                    "better this": {
+                        "0": 0.02167845517396927,
+                        "1": -0.022784482687711716
+                    },
+                    "been okay": {
+                        "0": 0.004759485367685556,
+                        "1": -0.003351969178766012
+                    },
+                    "like sci": {
+                        "0": -0.010652251541614532,
+                        "1": 0.011378458701074123
+                    },
+                    "an eccentric": {
+                        "0": -0.0030396103393286467,
+                        "1": 0.0026709220837801695
+                    },
+                    "last effort": {
+                        "0": 0.0022999364882707596,
+                        "1": -0.006060538813471794
+                    },
+                    "this is": {
+                        "0": -0.007209006231278181,
+                        "1": 0.0076037002727389336
+                    },
+                    "pacing and": {
+                        "0": 0.008397690020501614,
+                        "1": -0.008871959522366524
+                    },
+                    "well as": {
+                        "0": -0.01833002269268036,
+                        "1": 0.020417479798197746
+                    },
+                    "plus side": {
+                        "0": -0.013815765269100666,
+                        "1": 0.0124509921297431
+                    },
+                    "with it": {
+                        "0": -0.014142046682536602,
+                        "1": 0.014003320597112179
+                    },
+                    "him fails": {
+                        "0": 0.013773208484053612,
+                        "1": -0.012984679080545902
+                    },
+                    "really nasty": {
+                        "0": 0.019113296642899513,
+                        "1": -0.017615485936403275
+                    },
+                    "of tea": {
+                        "0": 0.013286571018397808,
+                        "1": -0.0151875801384449
+                    },
+                    "stomach already": {
+                        "0": 0.01427377387881279,
+                        "1": -0.013745571486651897
+                    }
+                },
+                "3-grams": {
+                    "uncomfortable possibly waiting": {
+                        "0": -0.03262163698673248,
+                        "1": 0.03419427573680878
+                    },
+                    "acting pedestrian pacing": {
+                        "0": -0.006037045270204544,
+                        "1": 0.0035368986427783966
+                    },
+                    "to and even": {
+                        "0": 0.01835683174431324,
+                        "1": -0.016236791387200356
+                    },
+                    "gratuitous as well": {
+                        "0": -0.013880501501262188,
+                        "1": 0.016689886804670095
+                    },
+                    "it might have": {
+                        "0": 0.03735000640153885,
+                        "1": -0.04014093056321144
+                    },
+                    "stomach already but": {
+                        "0": 0.018952535465359688,
+                        "1": -0.017468677833676338
+                    },
+                    "pedestrian pacing and": {
+                        "0": -0.006609592121094465,
+                        "1": 0.0065473164431750774
+                    },
+                    "eccentric turn from": {
+                        "0": -0.029760979115962982,
+                        "1": 0.028321456164121628
+                    },
+                    "bad acting pedestrian": {
+                        "0": 0.03336654440499842,
+                        "1": -0.03121897322125733
+                    },
+                    "with bad acting": {
+                        "0": 0.03582695126533508,
+                        "1": -0.035484593361616135
+                    },
+                    "watch it again": {
+                        "0": -0.02370399609208107,
+                        "1": 0.02457270957529545
+                    },
+                    "the only sci": {
+                        "0": 0.040296271443367004,
+                        "1": -0.039661385118961334
+                    },
+                    "tasteless instead of": {
+                        "0": 0.03638560697436333,
+                        "1": -0.03773878887295723
+                    },
+                    "even an eccentric": {
+                        "0": -0.01694801263511181,
+                        "1": 0.015462127514183521
+                    },
+                    "movie a affair": {
+                        "0": 0.03704844042658806,
+                        "1": -0.035725921392440796
+                    },
+                    "of the film": {
+                        "0": -0.016547471284866333,
+                        "1": 0.015620144084095955
+                    },
+                    "nasty taste in": {
+                        "0": 0.02693849988281727,
+                        "1": -0.028865285217761993
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "fails": 0.019925540313124657,
+                    "tasteless": 0.017717214301228523,
+                    "torture": 0.015030894428491592
+                },
+                "2-grams": {
+                    "acting pedestrian": 0.05771597474813461,
+                    "better this": 0.02167845517396927,
+                    "him fails": 0.013773208484053612,
+                    "really nasty": 0.019113296642899513,
+                    "last effort": 0.0022999364882707596,
+                    "of tea": 0.013286571018397808,
+                    "stomach already": 0.01427377387881279
+                },
+                "3-grams": {
+                    "to and even": 0.01835683174431324,
+                    "it might have": 0.03735000640153885,
+                    "stomach already but": 0.018952535465359688,
+                    "bad acting pedestrian": 0.02967940643429756,
+                    "with bad acting": 0.03582695126533508,
+                    "acting pedestrian pacing": -0.006037045270204544,
+                    "the only sci": 0.040296271443367004,
+                    "tasteless instead of": 0.03638560697436333,
+                    "movie a affair": 0.03704844042658806,
+                    "nasty taste in": 0.02693849988281727
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "i liked timothy dalton very much even though he was a bit young and too handsome for mr r but i thought clarke too and short this version however was very true to the novel and very well filmed i have seen 4 versions orson welles is still my favorite mr r though george c scott did very well and it's a toss up between joan fontaine and york although they were both a bit too old for the role i recently saw a brilliant tv version of rebecca with charles dance and fox i would love to see those two do jane eyre by the time i got to watching the version i think i was jane out but i will never tire of those first few minutes of hearing joan voice the opening of the first version i ever saw i always want to go back and read the book again"
+        ],
+        "target_class": 1,
+        "predicted_class": 1,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "dalton": {
+                        "0": -0.0007923523080535233,
+                        "1": 0.0008471812470816076
+                    },
+                    "rebecca": {
+                        "0": 0.0036797173088416457,
+                        "1": -0.002809288678690791
+                    },
+                    "handsome": {
+                        "0": 0.019027944188565016,
+                        "1": -0.01500213984400034
+                    },
+                    "eyre": {
+                        "0": -0.00022510979033540934,
+                        "1": 0.0003591661516111344
+                    },
+                    "r": {
+                        "0": -0.01720534823834896,
+                        "1": 0.017458220943808556
+                    },
+                    "never": {
+                        "0": 0.00035642459988594055,
+                        "1": -0.0006320598185993731
+                    },
+                    "timothy": {
+                        "0": 0.0003459957370068878,
+                        "1": -0.0002910834737122059
+                    },
+                    "mr": {
+                        "0": 0.003590031759813428,
+                        "1": -0.0027865413576364517
+                    },
+                    "true": {
+                        "0": -0.0033569021616131067,
+                        "1": 0.0021438586991280317
+                    },
+                    "minutes": {
+                        "0": 0.011954686604440212,
+                        "1": -0.011454042047262192
+                    },
+                    "favorite": {
+                        "0": -0.003424295224249363,
+                        "1": 0.004953150637447834
+                    },
+                    "fox": {
+                        "0": -0.0005368945421651006,
+                        "1": 0.0004666851891670376
+                    },
+                    "brilliant": {
+                        "0": -0.01348127517849207,
+                        "1": 0.0019626079592853785
+                    },
+                    "think": {
+                        "0": -0.00030175948631949723,
+                        "1": 0.0005504752043634653
+                    },
+                    "toss": {
+                        "0": -0.00980397593230009,
+                        "1": 0.008962040767073631
+                    },
+                    "to": {
+                        "0": -0.0004027053073514253,
+                        "1": 0.0006418953998945653
+                    },
+                    "did": {
+                        "0": 0.0020363221410661936,
+                        "1": -0.0011355603346601129
+                    },
+                    "welles": {
+                        "0": -0.001596552785485983,
+                        "1": 0.0012507685460150242
+                    }
+                },
+                "2-grams": {
+                    "and it's": {
+                        "0": -0.022594250738620758,
+                        "1": 0.012505097314715385
+                    },
+                    "welles is": {
+                        "0": -0.003854745998978615,
+                        "1": 0.002261565998196602
+                    },
+                    "4 versions": {
+                        "0": -0.016881870105862617,
+                        "1": 0.017153671011328697
+                    },
+                    "mr r": {
+                        "0": 0.03287278860807419,
+                        "1": -0.03706367686390877
+                    },
+                    "liked timothy": {
+                        "0": 0.021266371943056583,
+                        "1": -0.022117070853710175
+                    },
+                    "book again": {
+                        "0": 0.005648108199238777,
+                        "1": -0.0039940644055604935
+                    },
+                    "jane out": {
+                        "0": -0.011761858128011227,
+                        "1": 0.015106352046132088
+                    },
+                    "my favorite": {
+                        "0": -0.03329295292496681,
+                        "1": 0.043585166335105896
+                    },
+                    "the novel": {
+                        "0": -0.02616199478507042,
+                        "1": 0.024935945868492126
+                    },
+                    "a bit": {
+                        "0": -0.02242935076355934,
+                        "1": 0.023729154840111732
+                    },
+                    "see those": {
+                        "0": -0.008941948413848877,
+                        "1": 0.011857046745717525
+                    },
+                    "too handsome": {
+                        "0": 0.021236255764961243,
+                        "1": -0.02315344288945198
+                    },
+                    "thought clarke": {
+                        "0": -0.010672609321773052,
+                        "1": 0.012967463582754135
+                    },
+                    "they were": {
+                        "0": 0.006291412748396397,
+                        "1": -0.006357999052852392
+                    },
+                    "was very": {
+                        "0": 0.00987327191978693,
+                        "1": -0.008210999891161919
+                    },
+                    "very much": {
+                        "0": 0.006260089110583067,
+                        "1": -0.011802148073911667
+                    },
+                    "charles dance": {
+                        "0": 0.0137755386531353,
+                        "1": -0.017600711435079575
+                    },
+                    "this version": {
+                        "0": 0.005658063571900129,
+                        "1": -0.006544324103742838
+                    }
+                },
+                "3-grams": {
+                    "and very well": {
+                        "0": -0.06666930206120014,
+                        "1": 0.08401663973927498
+                    },
+                    "a brilliant tv": {
+                        "0": -0.032280709594488144,
+                        "1": 0.03771410509943962
+                    },
+                    "though george c": {
+                        "0": 0.024785250425338745,
+                        "1": -0.02221379056572914
+                    },
+                    "read the book": {
+                        "0": 0.044864289462566376,
+                        "1": -0.042605042457580566
+                    },
+                    "short this version": {
+                        "0": 0.01393939834088087,
+                        "1": -0.014219670556485653
+                    },
+                    "very well and": {
+                        "0": -0.00949085969477892,
+                        "1": 0.015121973119676113
+                    },
+                    "both a bit": {
+                        "0": -0.02726534754037857,
+                        "1": 0.040235165506601334
+                    },
+                    "the opening of": {
+                        "0": 0.008339556865394115,
+                        "1": -0.008512953296303749
+                    },
+                    "rebecca with charles": {
+                        "0": 0.03070657653734088,
+                        "1": -0.03927675727754831
+                    },
+                    "opening of the": {
+                        "0": -0.009643448516726494,
+                        "1": 0.01634938269853592
+                    },
+                    "again": {
+                        "0": 0.02259410172700882,
+                        "1": -0.03183010593056679
+                    },
+                    "much even though": {
+                        "0": -0.027970273047685623,
+                        "1": 0.032753486186265945
+                    },
+                    "the book again": {
+                        "0": 0.015321443788707256,
+                        "1": -0.01951390877366066
+                    },
+                    "first version i": {
+                        "0": 0.029169810935854912,
+                        "1": -0.034282341599464417
+                    },
+                    "and york although": {
+                        "0": -0.012444735504686832,
+                        "1": 0.012332149781286716
+                    },
+                    "i will never": {
+                        "0": 0.01327200885862112,
+                        "1": -0.01352329459041357
+                    },
+                    "of the first": {
+                        "0": -0.021244216710329056,
+                        "1": 0.024050407111644745
+                    },
+                    "tv version of": {
+                        "0": 0.010244004428386688,
+                        "1": -0.015035353600978851
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "r": 0.017458220943808556
+                },
+                "2-grams": {
+                    "and it's": 0.012505097314715385,
+                    "4 versions": 0.017153671011328697,
+                    "jane out": 0.015106352046132088,
+                    "my favorite": 0.043585166335105896,
+                    "the novel": 0.024935945868492126,
+                    "welles is": 0.002261565998196602,
+                    "a bit": 0.023729154840111732,
+                    "thought clarke": 0.012967463582754135
+                },
+                "3-grams": {
+                    "and very well": 0.08401663973927498,
+                    "a brilliant tv": 0.03771410509943962,
+                    "very well and": 0.015121973119676113,
+                    "both a bit": 0.040235165506601334,
+                    "opening of the": 0.01634938269853592,
+                    "much even though": 0.032753486186265945,
+                    "and york although": 0.012332149781286716,
+                    "of the first": 0.024050407111644745
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {
+                    "and very well": 0.05691545084118843
+                }
+            }
+        }
+    },
+    {
+        "sentence": [
+            "the only good thing about this film is they managed to tie it with part one but other than that it was one of the worst films ever the only time you see the ghoulies is in a flashback and the flashback is just clips from part one a must not see on a one to ten ghoulies 4 gets a one"
+        ],
+        "target_class": 0,
+        "predicted_class": 0,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "managed": {
+                        "0": -0.00012118308222852647,
+                        "1": 0.0001228534965775907
+                    },
+                    "the": {
+                        "0": 0.0,
+                        "1": 0.0
+                    },
+                    "worst": {
+                        "0": 0.062292351060023066,
+                        "1": -0.05733461927411554
+                    },
+                    "time": {
+                        "0": -0.0018942623864859343,
+                        "1": 0.0019087644759565592
+                    },
+                    "flashback": {
+                        "0": 0.0021383951825555414,
+                        "1": -0.0023237489949679
+                    },
+                    "you": {
+                        "0": 0.0001554175978526473,
+                        "1": 0.00043291675683576614
+                    },
+                    "other": {
+                        "0": -0.0017484911950305104,
+                        "1": 0.002318569226190448
+                    },
+                    "clips": {
+                        "0": -0.0014699404127895832,
+                        "1": 0.0012855016393586993
+                    }
+                },
+                "2-grams": {
+                    "time you": {
+                        "0": -0.006200232543051243,
+                        "1": 0.005612129811197519
+                    },
+                    "good thing": {
+                        "0": 0.022591454908251762,
+                        "1": -0.022881144657731056
+                    },
+                    "ghoulies 4": {
+                        "0": -0.04336402006447315,
+                        "1": 0.04468344338238239
+                    },
+                    "4 gets": {
+                        "0": 0.01436496339738369,
+                        "1": -0.01789144240319729
+                    },
+                    "ten ghoulies": {
+                        "0": 0.0027671637944877148,
+                        "1": -0.0024617593735456467
+                    },
+                    "films ever": {
+                        "0": -0.025113685056567192,
+                        "1": 0.028349217027425766
+                    },
+                    "you see": {
+                        "0": -0.011528131552040577,
+                        "1": 0.010429331101477146
+                    },
+                    "the ghoulies": {
+                        "0": -0.01638760045170784,
+                        "1": 0.015746919438242912
+                    },
+                    "ghoulies is": {
+                        "0": -0.014668857678771019,
+                        "1": 0.016481678932905197
+                    },
+                    "worst films": {
+                        "0": 0.05836554989218712,
+                        "1": -0.05430205352604389
+                    },
+                    "they managed": {
+                        "0": -0.0070297978818416595,
+                        "1": 0.0060590822249650955
+                    },
+                    "must not": {
+                        "0": -0.015187672339379787,
+                        "1": 0.015332317911088467
+                    },
+                    "just clips": {
+                        "0": 0.021176008507609367,
+                        "1": -0.019785135984420776
+                    },
+                    "the worst": {
+                        "0": 0.012937533669173717,
+                        "1": -0.01251173298805952
+                    },
+                    "one to": {
+                        "0": 0.007694060914218426,
+                        "1": -0.008346104063093662
+                    },
+                    "this film": {
+                        "0": 0.013559132814407349,
+                        "1": -0.01284203864634037
+                    }
+                },
+                "3-grams": {
+                    "worst films ever": {
+                        "0": -0.02303287759423256,
+                        "1": 0.023093141615390778
+                    },
+                    "about this film": {
+                        "0": -0.03596150502562523,
+                        "1": 0.03562556207180023
+                    },
+                    "must not see": {
+                        "0": 0.030377624556422234,
+                        "1": -0.028914688155055046
+                    },
+                    "a must not": {
+                        "0": -0.007465468719601631,
+                        "1": 0.007383071817457676
+                    },
+                    "ever the only": {
+                        "0": 0.0222235769033432,
+                        "1": -0.02352997474372387
+                    },
+                    "just clips from": {
+                        "0": 0.054302968084812164,
+                        "1": -0.052066477946937084
+                    },
+                    "managed to tie": {
+                        "0": -0.003715140512213111,
+                        "1": 0.004056540783494711
+                    },
+                    "one a must": {
+                        "0": -0.028590619564056396,
+                        "1": 0.027327757328748703
+                    },
+                    "the only good": {
+                        "0": 0.08419876918196678,
+                        "1": -0.08138851448893547
+                    },
+                    "ghoulies 4 gets": {
+                        "0": 0.05219350755214691,
+                        "1": -0.050731778144836426
+                    },
+                    "good thing about": {
+                        "0": -0.009687109850347042,
+                        "1": 0.011083601042628288
+                    },
+                    "the worst films": {
+                        "0": 0.04248865321278572,
+                        "1": -0.044764626771211624
+                    },
+                    "tie it with": {
+                        "0": -0.01337052509188652,
+                        "1": 0.014099949039518833
+                    },
+                    "4 gets a": {
+                        "0": 0.011920999735593796,
+                        "1": -0.012368673458695412
+                    },
+                    "time you see": {
+                        "0": -0.03061862662434578,
+                        "1": 0.028415296226739883
+                    },
+                    "only good thing": {
+                        "0": 0.013407140038907528,
+                        "1": -0.014237933792173862
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "worst": 0.062292351060023066
+                },
+                "2-grams": {
+                    "good thing": 0.022591454908251762,
+                    "4 gets": 0.01436496339738369,
+                    "ghoulies 4": -0.008164795115590096,
+                    "worst films": 0.05836554989218712,
+                    "they managed": -0.0070297978818416595,
+                    "just clips": 0.021176008507609367,
+                    "the worst": 0.012937533669173717,
+                    "one to": 0.007694060914218426,
+                    "this film": 0.013559132814407349
+                },
+                "3-grams": {
+                    "must not see": 0.030377624556422234,
+                    "ever the only": 0.0222235769033432,
+                    "just clips from": 0.07710674032568932,
+                    "the only good": 0.08419876918196678,
+                    "ghoulies 4 gets": 0.05219350755214691,
+                    "the worst films": 0.04248865321278572,
+                    "4 gets a": 0.011920999735593796,
+                    "only good thing": 0.013407140038907528
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "der des allen grey and didn't expect all that much from it it looked like it might be an interesting little short though so i turned it on i am so glad that i did it was really incredible despite having been made more than 70 years ago the animation was in my view better than some of that done today with all the computer effects and experience available now the story is quite simple a newly put together toy dog hears its about not being able to afford an orange and goes on a quest to find her one in the process it runs into a underworld with all sort of creatures and toys by none other than the devil himself who all want the orange for themselves as well this film but reminds me a lot of mad monster party 1969 jules a movie which i have always really enjoyed and to a lesser extent some of tim burton's animated works the nightmare before christmas 1993 henry and corpse bride 2005 tim burton fans of any of these movies will i am sure also love the overall an incredible piece of short animation which is well worth watching"
+        ],
+        "target_class": 1,
+        "predicted_class": 1,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "underworld": {
+                        "0": -0.0078101372346282005,
+                        "1": 0.00840650126338005
+                    },
+                    "better": {
+                        "0": 0.004491591826081276,
+                        "1": -0.0029113159980624914
+                    },
+                    "devil": {
+                        "0": 0.005451242905110121,
+                        "1": -0.004877138417214155
+                    },
+                    "der": {
+                        "0": 0.012208019383251667,
+                        "1": -0.014002143405377865
+                    },
+                    "animation": {
+                        "0": -0.008802680298686028,
+                        "1": 0.016866937279701233
+                    },
+                    "70": {
+                        "0": -0.0007280876743607223,
+                        "1": 0.0007443365757353604
+                    },
+                    "bride": {
+                        "0": 0.0012229314306750894,
+                        "1": -0.0034942508209496737
+                    },
+                    "effects": {
+                        "0": 0.004841716028749943,
+                        "1": -0.004279245622456074
+                    },
+                    "1993": {
+                        "0": 0.012260718271136284,
+                        "1": -0.009101398289203644
+                    },
+                    "none": {
+                        "0": 0.013139340095221996,
+                        "1": -0.009135802276432514
+                    },
+                    "lot": {
+                        "0": -0.00773698789998889,
+                        "1": 0.005071831867098808
+                    },
+                    "monster": {
+                        "0": 0.006305912509560585,
+                        "1": -0.006746611557900906
+                    },
+                    "view": {
+                        "0": -0.004707929212599993,
+                        "1": 0.007784361019730568
+                    },
+                    "find": {
+                        "0": -0.0022440534085035324,
+                        "1": 0.0018431294010952115
+                    },
+                    "mad": {
+                        "0": -0.01306021399796009,
+                        "1": 0.0032864201348274946
+                    },
+                    "glad": {
+                        "0": -0.002406793413683772,
+                        "1": 0.006451671943068504
+                    },
+                    "jules": {
+                        "0": -0.012467047199606895,
+                        "1": 0.01409151777625084
+                    },
+                    "piece": {
+                        "0": -0.0018391484627500176,
+                        "1": 0.002508940640836954
+                    },
+                    "did": {
+                        "0": 0.0017572997603565454,
+                        "1": -0.0004159153322689235
+                    },
+                    "available": {
+                        "0": -0.009776778519153595,
+                        "1": 0.0070968386717140675
+                    }
+                },
+                "2-grams": {
+                    "1969 jules": {
+                        "0": -0.03417438827455044,
+                        "1": 0.02651441004127264
+                    },
+                    "quite simple": {
+                        "0": 0.014524287544190884,
+                        "1": -0.01318409200757742
+                    },
+                    "the nightmare": {
+                        "0": -0.013988586142659187,
+                        "1": 0.01531022135168314
+                    },
+                    "devil himself": {
+                        "0": 0.02586013823747635,
+                        "1": -0.027414681389927864
+                    },
+                    "orange and": {
+                        "0": 0.013774369843304157,
+                        "1": -0.011947914958000183
+                    },
+                    "been made": {
+                        "0": 0.013003482483327389,
+                        "1": -0.009433159604668617
+                    },
+                    "animated works": {
+                        "0": -0.017413429915905,
+                        "1": 0.025945091620087624
+                    },
+                    "my view": {
+                        "0": -0.011263653635978699,
+                        "1": 0.01559435110539198
+                    },
+                    "monster party": {
+                        "0": -0.015218534506857395,
+                        "1": 0.014615687541663647
+                    },
+                    "orange for": {
+                        "0": 0.004115360789000988,
+                        "1": -0.006045141257345676
+                    },
+                    "well worth": {
+                        "0": -0.027372945100069046,
+                        "1": 0.02792884036898613
+                    },
+                    "a underworld": {
+                        "0": -0.014374717138707638,
+                        "1": 0.02490292116999626
+                    },
+                    "by none": {
+                        "0": 0.00755267683416605,
+                        "1": -0.009744915179908276
+                    },
+                    "jules a": {
+                        "0": -0.0177078228443861,
+                        "1": 0.02363312989473343
+                    },
+                    "mad monster": {
+                        "0": 0.006355528719723225,
+                        "1": -0.007600962184369564
+                    },
+                    "really incredible": {
+                        "0": 0.005984092131257057,
+                        "1": -0.014362393878400326
+                    },
+                    "an orange": {
+                        "0": 0.005546977277845144,
+                        "1": -0.00764237018302083
+                    },
+                    "this film": {
+                        "0": 0.004699540324509144,
+                        "1": -0.006045840680599213
+                    }
+                },
+                "3-grams": {
+                    "is quite simple": {
+                        "0": -0.02895880863070488,
+                        "1": 0.04003423824906349
+                    },
+                    "really incredible despite": {
+                        "0": -0.034590091556310654,
+                        "1": 0.04219291731715202
+                    },
+                    "about not being": {
+                        "0": 0.024544313549995422,
+                        "1": -0.023118626326322556
+                    },
+                    "is well worth": {
+                        "0": -0.031001931056380272,
+                        "1": 0.03690023720264435
+                    },
+                    "it might be": {
+                        "0": 0.017820850014686584,
+                        "1": -0.015487272292375565
+                    },
+                    "all sort of": {
+                        "0": 0.014770164154469967,
+                        "1": -0.016565870493650436
+                    },
+                    "really enjoyed and": {
+                        "0": -0.014245811849832535,
+                        "1": 0.027508677914738655
+                    },
+                    "short animation which": {
+                        "0": -0.013488968834280968,
+                        "1": 0.02466810680925846
+                    },
+                    "turned it on": {
+                        "0": 0.014640985056757927,
+                        "1": -0.016243664547801018
+                    },
+                    "bride 2005 tim": {
+                        "0": 0.05133274802938104,
+                        "1": -0.07067096326500177
+                    },
+                    "themselves as well": {
+                        "0": -0.007373076863586903,
+                        "1": 0.013586620800197124
+                    },
+                    "always really enjoyed": {
+                        "0": 0.014884624630212784,
+                        "1": -0.02374635450541973
+                    },
+                    "quest to find": {
+                        "0": -0.01897573098540306,
+                        "1": 0.02355933003127575
+                    },
+                    "the devil himself": {
+                        "0": 0.014016822911798954,
+                        "1": -0.020486565306782722
+                    },
+                    "computer effects and": {
+                        "0": -0.018425559625029564,
+                        "1": 0.020449882373213768
+                    },
+                    "am sure also": {
+                        "0": 0.028381135314702988,
+                        "1": -0.038202714174985886
+                    },
+                    "that done today": {
+                        "0": -0.02305157668888569,
+                        "1": 0.030294831842184067
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "animation": 0.016866937279701233,
+                    "jules": 0.01409151777625084
+                },
+                "2-grams": {
+                    "1969 jules": 0.02651441004127264,
+                    "the nightmare": 0.01531022135168314,
+                    "animated works": 0.025945091620087624,
+                    "my view": 0.01559435110539198,
+                    "monster party": 0.014615687541663647,
+                    "well worth": 0.02792884036898613,
+                    "a underworld": 0.02490292116999626,
+                    "jules a": 0.02363312989473343
+                },
+                "3-grams": {
+                    "is quite simple": 0.04003423824906349,
+                    "really incredible despite": 0.04219291731715202,
+                    "is well worth": 0.03690023720264435,
+                    "really enjoyed and": 0.027508677914738655,
+                    "short animation which": 0.02466810680925846,
+                    "themselves as well": 0.013586620800197124,
+                    "quest to find": 0.02355933003127575,
+                    "computer effects and": 0.020449882373213768,
+                    "that done today": 0.030294831842184067
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "having the opportunity to watch some of the filming in the village broadway area i couldn't wait to see it's final copy viewing this film at the last friday i haven't laughed out loud at a comedy in a long time it is great slapstick the russo brothers did a fine job directing the entire cast performs their best comedic acting no slow or dry segments george clooney is one of my favorite actors and he's great as the crippled safe in this flick i was most by william h macy as crook and michael as they keep you in stitches i believe they have the funniest roles in the entire movie"
+        ],
+        "target_class": 1,
+        "predicted_class": 1,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "william": {
+                        "0": -0.003451542230322957,
+                        "1": 0.0038412921130657196
+                    },
+                    "flick": {
+                        "0": 0.006272605154663324,
+                        "1": -0.004126552026718855
+                    },
+                    "laughed": {
+                        "0": 0.008756664232350886,
+                        "1": -0.007315601920709014
+                    },
+                    "no": {
+                        "0": 0.002205430530011654,
+                        "1": -0.002282850444316864
+                    },
+                    "slapstick": {
+                        "0": -0.005714578554034233,
+                        "1": 0.008741218596696854
+                    },
+                    "great": {
+                        "0": -0.020116252824664116,
+                        "1": 0.020083563402295113
+                    },
+                    "movie": {
+                        "0": 0.0011433199979364872,
+                        "1": -0.002306271344423294
+                    },
+                    "macy": {
+                        "0": 0.004737675189971924,
+                        "1": -0.002564300550147891
+                    },
+                    "dry": {
+                        "0": 0.014087466548971861,
+                        "1": -0.014331938540181
+                    },
+                    "best": {
+                        "0": -0.009286553598940372,
+                        "1": 0.006411850918084383
+                    },
+                    "job": {
+                        "0": -0.008290008641779423,
+                        "1": 0.012284897267818451
+                    },
+                    "you": {
+                        "0": -0.0048806320410221815,
+                        "1": 0.005646131234243512
+                    },
+                    "final": {
+                        "0": -0.013306894339621067,
+                        "1": 0.0047682118602097034
+                    },
+                    "last": {
+                        "0": -0.007216988131403923,
+                        "1": 0.012845979072153568
+                    },
+                    "crippled": {
+                        "0": -0.001415007165633142,
+                        "1": 0.0014776635216549039
+                    },
+                    "funniest": {
+                        "0": -0.005052980035543442,
+                        "1": 0.0038205997552722692
+                    }
+                },
+                "2-grams": {
+                    "see it's": {
+                        "0": -0.029381733387708664,
+                        "1": 0.018575670197606087
+                    },
+                    "out loud": {
+                        "0": 0.0036599519662559032,
+                        "1": -0.004090275149792433
+                    },
+                    "most by": {
+                        "0": -0.014763762708753347,
+                        "1": 0.011465772986412048
+                    },
+                    "wait to": {
+                        "0": 0.018287114799022675,
+                        "1": -0.01872497983276844
+                    },
+                    "this flick": {
+                        "0": -0.0032252753153443336,
+                        "1": 0.0018497491255402565
+                    },
+                    "brothers did": {
+                        "0": 0.010563779389485717,
+                        "1": -0.01043496560305357
+                    },
+                    "funniest roles": {
+                        "0": -0.019175168126821518,
+                        "1": 0.023916244506835938
+                    },
+                    "my favorite": {
+                        "0": -0.04292313754558563,
+                        "1": 0.0561094768345356
+                    },
+                    "haven't laughed": {
+                        "0": -0.045304231345653534,
+                        "1": 0.04199400544166565
+                    },
+                    "laughed out": {
+                        "0": 0.0017137607792392373,
+                        "1": -0.0022073467262089252
+                    },
+                    "he's great": {
+                        "0": -0.022401345893740654,
+                        "1": 0.0228178221732378
+                    },
+                    "russo brothers": {
+                        "0": -0.008318488486111164,
+                        "1": 0.011999106965959072
+                    },
+                    "or dry": {
+                        "0": 0.019654497504234314,
+                        "1": -0.02351151593029499
+                    },
+                    "time it": {
+                        "0": -0.014430578798055649,
+                        "1": 0.017590254545211792
+                    },
+                    "was most": {
+                        "0": 0.011563148349523544,
+                        "1": -0.010024001821875572
+                    },
+                    "believe they": {
+                        "0": 0.014997092075645924,
+                        "1": -0.018664279952645302
+                    }
+                },
+                "3-grams": {
+                    "village broadway area": {
+                        "0": 0.00981278344988823,
+                        "1": -0.010135522112250328
+                    },
+                    "viewing this film": {
+                        "0": -0.023140225559473038,
+                        "1": 0.027670664712786674
+                    },
+                    "i couldn't wait": {
+                        "0": 0.030584869906306267,
+                        "1": -0.027605917304754257
+                    },
+                    "slapstick the russo": {
+                        "0": -0.013000904582440853,
+                        "1": 0.015257351100444794
+                    },
+                    "h macy as": {
+                        "0": 0.02293974719941616,
+                        "1": -0.020206434652209282
+                    },
+                    "crook and michael": {
+                        "0": -0.008963367901742458,
+                        "1": 0.013602730818092823
+                    },
+                    "did a fine": {
+                        "0": -0.028183206915855408,
+                        "1": 0.04404805228114128
+                    },
+                    "acting no slow": {
+                        "0": 0.027766507118940353,
+                        "1": -0.029779959470033646
+                    },
+                    "some of the": {
+                        "0": -0.010493780486285686,
+                        "1": 0.018717223778367043
+                    },
+                    "movie": {
+                        "0": 0.03697321843355894,
+                        "1": -0.04923740494996309
+                    },
+                    "watch some of": {
+                        "0": -0.02289784885942936,
+                        "1": 0.02627582661807537
+                    },
+                    "the filming in": {
+                        "0": 0.0340561643242836,
+                        "1": -0.0459366999566555
+                    },
+                    "broadway area i": {
+                        "0": 0.013099443167448044,
+                        "1": -0.015431210398674011
+                    },
+                    "is great slapstick": {
+                        "0": -0.012654328718781471,
+                        "1": 0.013815658167004585
+                    },
+                    "of the filming": {
+                        "0": -0.03411202132701874,
+                        "1": 0.038747332990169525
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "great": 0.020083563402295113
+                },
+                "2-grams": {
+                    "see it's": 0.018575670197606087,
+                    "most by": 0.019686706364154816,
+                    "funniest roles": 0.023916244506835938,
+                    "my favorite": 0.0561094768345356,
+                    "haven't laughed": 0.04199400544166565,
+                    "he's great": 0.0228178221732378,
+                    "time it": 0.017590254545211792
+                },
+                "3-grams": {
+                    "village broadway area": 0.034046631306409836,
+                    "viewing this film": 0.027670664712786674,
+                    "did a fine": 0.04404805228114128,
+                    "some of the": 0.018717223778367043,
+                    "watch some of": 0.02627582661807537,
+                    "of the filming": 0.038747332990169525
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "what war is all about i am watching the dvd version of the original television documentary i strongly recommend this over the worn out vhs available on ebay i paid for five 2 sided dvd this new release includes bonus material and is in full screen mode the are easy to follow there is first a choice of which episode you want to view and then after that you are given the option of various chapters in the episode or to play the whole episode it is understandable with such a presentation there is a tiny amount more of in the menu but the impact of what you will see is not after 30 years after 60 years since the war finished i remember watching the first broadcast on the buffalo pbs station just before moving from london in 1975 and wishing right from that time that i could have a copy now my wish has finally come true see this documentary tell your friends buy a copy for your library remember and the sacrifices and challenges overcome by those from america russia britain canada and all the other nations and peoples involved in the final victory what an eye"
+        ],
+        "target_class": 1,
+        "predicted_class": 1,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "impact": {
+                        "0": -0.011396966088796034,
+                        "1": 0.012321034984779544
+                    },
+                    "paid": {
+                        "0": 0.006240963935852051,
+                        "1": -0.0038484586402773857
+                    },
+                    "station": {
+                        "0": 0.004004333168268204,
+                        "1": -0.0036334542091935873
+                    },
+                    "sided": {
+                        "0": 0.008917244151234627,
+                        "1": -0.009450173005461693
+                    },
+                    "vhs": {
+                        "0": -0.013327867025509477,
+                        "1": 0.010719770565629005
+                    },
+                    "victory": {
+                        "0": -0.012390732765197754,
+                        "1": 0.012720867991447449
+                    },
+                    "nations": {
+                        "0": 0.005701852031052113,
+                        "1": -0.0032221380388364196
+                    },
+                    "chapters": {
+                        "0": -0.0015924805775284767,
+                        "1": 0.004847635282203555
+                    },
+                    "whole": {
+                        "0": 0.007320984732359648,
+                        "1": -0.00546379154548049
+                    },
+                    "worn": {
+                        "0": 0.00892552174627781,
+                        "1": -0.009255249984562397
+                    },
+                    "view": {
+                        "0": -0.004966893699020147,
+                        "1": 0.008134094998240471
+                    },
+                    "play": {
+                        "0": -0.004357434809207916,
+                        "1": 0.003764369059354067
+                    },
+                    "episode": {
+                        "0": -0.010175205767154694,
+                        "1": 0.0017280852189287543
+                    },
+                    "war": {
+                        "0": -0.010996857658028603,
+                        "1": 0.011617809534072876
+                    },
+                    "buy": {
+                        "0": -0.0027514256071299314,
+                        "1": 0.003976024687290192
+                    },
+                    "available": {
+                        "0": -0.01107353437691927,
+                        "1": 0.00845501571893692
+                    }
+                },
+                "2-grams": {
+                    "out vhs": {
+                        "0": -0.016975028440356255,
+                        "1": 0.009368158876895905
+                    },
+                    "various chapters": {
+                        "0": 0.012330207042396069,
+                        "1": -0.013703608885407448
+                    },
+                    "whole episode": {
+                        "0": -0.006610907847061753,
+                        "1": 0.005790120922029018
+                    },
+                    "worn out": {
+                        "0": 0.011826766654849052,
+                        "1": -0.01634387858211994
+                    },
+                    "tell your": {
+                        "0": 0.009273514151573181,
+                        "1": -0.00824420340359211
+                    },
+                    "bonus material": {
+                        "0": 0.014307825826108456,
+                        "1": -0.010139435529708862
+                    },
+                    "challenges overcome": {
+                        "0": -0.013925725594162941,
+                        "1": 0.019627733156085014
+                    },
+                    "true see": {
+                        "0": -0.027305059134960175,
+                        "1": 0.038138434290885925
+                    },
+                    "war is": {
+                        "0": -0.028436459600925446,
+                        "1": 0.02823060005903244
+                    },
+                    "strongly recommend": {
+                        "0": -0.020701773464679718,
+                        "1": 0.02154342457652092
+                    },
+                    "available on": {
+                        "0": -0.010995612479746342,
+                        "1": 0.01781119965016842
+                    },
+                    "or to": {
+                        "0": 0.013128822669386864,
+                        "1": -0.016353443264961243
+                    },
+                    "peoples involved": {
+                        "0": -0.011417990550398827,
+                        "1": 0.014968453906476498
+                    },
+                    "years since": {
+                        "0": 0.0038423980586230755,
+                        "1": -0.004311199765652418
+                    },
+                    "and wishing": {
+                        "0": 0.021097231656312943,
+                        "1": -0.017311202362179756
+                    },
+                    "tiny amount": {
+                        "0": 0.003509056754410267,
+                        "1": -0.008442569524049759
+                    },
+                    "for your": {
+                        "0": 0.006613143719732761,
+                        "1": -0.00907712522894144
+                    },
+                    "other nations": {
+                        "0": 0.012016342021524906,
+                        "1": -0.01539560966193676
+                    }
+                },
+                "3-grams": {
+                    "pbs station just": {
+                        "0": -0.028865816071629524,
+                        "1": 0.04027795419096947
+                    },
+                    "strongly recommend this": {
+                        "0": -0.04881580173969269,
+                        "1": 0.06024196743965149
+                    },
+                    "is not after": {
+                        "0": 0.023438740521669388,
+                        "1": -0.021585015580058098
+                    },
+                    "dvd version of": {
+                        "0": -0.02183239348232746,
+                        "1": 0.03082553669810295
+                    },
+                    "i could have": {
+                        "0": 0.0443975105881691,
+                        "1": -0.0396944023668766
+                    },
+                    "your library remember": {
+                        "0": 0.007133730221539736,
+                        "1": -0.0077429041266441345
+                    },
+                    "it is understandable": {
+                        "0": -0.013045474886894226,
+                        "1": 0.022839272394776344
+                    },
+                    "wishing right from": {
+                        "0": 0.016674360260367393,
+                        "1": -0.018148116767406464
+                    },
+                    "five 2 sided": {
+                        "0": 0.016096843406558037,
+                        "1": -0.02146751806139946
+                    },
+                    "version of the": {
+                        "0": -0.006007653195410967,
+                        "1": 0.011411580257117748
+                    },
+                    "buy a copy": {
+                        "0": 0.004794779233634472,
+                        "1": -0.008907162584364414
+                    },
+                    "the worn out": {
+                        "0": 0.013802495785057545,
+                        "1": -0.02194349095225334
+                    },
+                    "just before moving": {
+                        "0": -0.0019219880923628807,
+                        "1": 0.00455414317548275
+                    },
+                    "full screen mode": {
+                        "0": 0.013572042807936668,
+                        "1": -0.019164985045790672
+                    },
+                    "and challenges overcome": {
+                        "0": -0.012326288037002087,
+                        "1": 0.013352541252970695
+                    },
+                    "ebay i paid": {
+                        "0": -0.016485294327139854,
+                        "1": 0.020500589162111282
+                    },
+                    "am watching the": {
+                        "0": 0.008873149752616882,
+                        "1": -0.014255955815315247
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "impact": 0.012550905346870422,
+                    "victory": 0.012720867991447449,
+                    "war": 0.011617809534072876
+                },
+                "2-grams": {
+                    "challenges overcome": 0.019627733156085014,
+                    "true see": 0.038138434290885925,
+                    "worn out": -0.01634387858211994,
+                    "war is": 0.02823060005903244,
+                    "strongly recommend": 0.02154342457652092,
+                    "available on": 0.01781119965016842,
+                    "peoples involved": 0.014968453906476498
+                },
+                "3-grams": {
+                    "pbs station just": 0.04027795419096947,
+                    "strongly recommend this": 0.06024196743965149,
+                    "dvd version of": 0.05181226320564747,
+                    "it is understandable": 0.022839272394776344,
+                    "version of the": 0.011411580257117748,
+                    "just before moving": 0.021288378164172173,
+                    "and challenges overcome": 0.013352541252970695,
+                    "ebay i paid": 0.020500589162111282
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    },
+    {
+        "sentence": [
+            "this film makes american pie a sophisticated movie no further comment needed humor is cheap dialogues are stupid and the cast is awkward every clich\u00e9 is used several times without any original twist and far the worst the movie turns out to be more catholic than the pope it's so sad"
+        ],
+        "target_class": 0,
+        "predicted_class": 0,
+        "features": {
+            "all": {
+                "1-grams": {
+                    "pie": {
+                        "0": -0.004153021145612001,
+                        "1": 0.00419461727142334
+                    },
+                    "no": {
+                        "0": 0.010240579023957253,
+                        "1": -0.01011677528731525
+                    },
+                    "worst": {
+                        "0": 0.05097594880498946,
+                        "1": -0.04444621072616428
+                    },
+                    "awkward": {
+                        "0": 0.02169306017458439,
+                        "1": -0.01561710610985756
+                    },
+                    "humor": {
+                        "0": -0.01092864022939466,
+                        "1": 0.00976909491873812
+                    },
+                    "movie": {
+                        "0": 0.005404772702604532,
+                        "1": -0.005685402546077967
+                    },
+                    "pope": {
+                        "0": 0.0025502345233689994,
+                        "1": -0.0029593849321827292
+                    },
+                    "far": {
+                        "0": 0.022830182686448097,
+                        "1": -0.01876973919570446
+                    },
+                    "comment": {
+                        "0": -0.0017051692120730877,
+                        "1": 0.0025807064957916737
+                    },
+                    "times": {
+                        "0": 0.002985804108902812,
+                        "1": -0.005238573532551527
+                    },
+                    "this": {
+                        "0": 0.0,
+                        "1": 0.0
+                    }
+                },
+                "2-grams": {
+                    "pope it's": {
+                        "0": -0.004213419277220964,
+                        "1": 0.0023336962331086397
+                    },
+                    "cast is": {
+                        "0": 0.0051386854611337185,
+                        "1": -0.002950158901512623
+                    },
+                    "this film": {
+                        "0": 0.008026690687984228,
+                        "1": -0.0075548687018454075
+                    },
+                    "sad": {
+                        "0": 0.012985778041183949,
+                        "1": -0.018687427043914795
+                    },
+                    "stupid and": {
+                        "0": 0.05239508394151926,
+                        "1": -0.054645005613565445
+                    },
+                    "clich\u00e9 is": {
+                        "0": 0.006806729827076197,
+                        "1": -0.004871338605880737
+                    },
+                    "more catholic": {
+                        "0": -0.009364665485918522,
+                        "1": 0.011255301535129547
+                    },
+                    "several times": {
+                        "0": -0.0015965360216796398,
+                        "1": 0.0012810409534722567
+                    },
+                    "film makes": {
+                        "0": -0.013950953260064125,
+                        "1": 0.013179519213736057
+                    },
+                    "turns out": {
+                        "0": 0.0027857450768351555,
+                        "1": -0.003002536715939641
+                    },
+                    "a sophisticated": {
+                        "0": -0.01584557071328163,
+                        "1": 0.01774824969470501
+                    },
+                    "any original": {
+                        "0": -0.01332722045481205,
+                        "1": 0.011838629841804504
+                    },
+                    "worst the": {
+                        "0": 0.02613268606364727,
+                        "1": -0.02242046594619751
+                    },
+                    "sophisticated movie": {
+                        "0": -0.007695639040321112,
+                        "1": 0.0077924649231135845
+                    },
+                    "the worst": {
+                        "0": 0.007699777837842703,
+                        "1": -0.007267640437930822
+                    },
+                    "is awkward": {
+                        "0": 0.02015615440905094,
+                        "1": -0.017867621034383774
+                    },
+                    "is cheap": {
+                        "0": 0.01986495964229107,
+                        "1": -0.019007576629519463
+                    }
+                },
+                "3-grams": {
+                    "pie a sophisticated": {
+                        "0": -0.08690812811255455,
+                        "1": 0.08504339307546616
+                    },
+                    "a sophisticated movie": {
+                        "0": -0.050974879413843155,
+                        "1": 0.0501491017639637
+                    },
+                    "the worst the": {
+                        "0": 0.008259445428848267,
+                        "1": -0.007551327347755432
+                    },
+                    "is used several": {
+                        "0": -0.007700392510741949,
+                        "1": 0.007674696389585733
+                    },
+                    "are stupid and": {
+                        "0": 0.04976102337241173,
+                        "1": -0.05398892983794212
+                    },
+                    "times without any": {
+                        "0": 0.014329950325191021,
+                        "1": -0.01348520815372467
+                    },
+                    "sophisticated movie no": {
+                        "0": -0.006763952784240246,
+                        "1": 0.008007152937352657
+                    },
+                    "clich\u00e9 is used": {
+                        "0": 0.025724701583385468,
+                        "1": -0.023792970925569534
+                    },
+                    "is awkward every": {
+                        "0": 0.057137059047818184,
+                        "1": -0.0552260372787714
+                    },
+                    "dialogues are stupid": {
+                        "0": -0.004504768177866936,
+                        "1": 0.005637338384985924
+                    },
+                    "is cheap dialogues": {
+                        "0": 0.004123627208173275,
+                        "1": -0.0031624617986381054
+                    },
+                    "sad": {
+                        "0": 0.07220467552542686,
+                        "1": -0.07794439420104027
+                    },
+                    "needed humor is": {
+                        "0": -0.014705208130180836,
+                        "1": 0.016124412417411804
+                    },
+                    "far the worst": {
+                        "0": 0.05739417299628258,
+                        "1": -0.055560484528541565
+                    },
+                    "movie no further": {
+                        "0": 0.034288547933101654,
+                        "1": -0.036030348390340805
+                    },
+                    "makes american pie": {
+                        "0": -0.030619312077760696,
+                        "1": 0.028047130443155766
+                    }
+                }
+            },
+            "sufficient": {
+                "1-grams": {
+                    "awkward": 0.02169306017458439,
+                    "far": 0.022830182686448097,
+                    "worst": 0.05097594880498946
+                },
+                "2-grams": {
+                    "stupid and": 0.04152699187397957,
+                    "worst the": 0.02613268606364727,
+                    "is awkward": 0.02015615440905094,
+                    "is cheap": 0.01986495964229107
+                },
+                "3-grams": {
+                    "are stupid and": 0.04976102337241173,
+                    "times without any": 0.014329950325191021,
+                    "clich\u00e9 is used": 0.025724701583385468,
+                    "is awkward every": 0.057137059047818184,
+                    "sad": 0.07220467552542686,
+                    "far the worst": 0.05739417299628258,
+                    "movie no further": 0.034288547933101654
+                }
+            },
+            "necessary": {
+                "1-grams": {},
+                "2-grams": {},
+                "3-grams": {}
+            }
+        }
+    }
+]
