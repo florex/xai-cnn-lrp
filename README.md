@@ -1,7 +1,5 @@
 # xai-cnn-lrp
-This repository contains codes to explain One-Dimensional Convolutional Neural Networks (1D-CNN) using Layer-wise Relevance Propagation. The explanation technique consists in computing the relevance of the various n-gram features and determining sufficient and necessary n-grams. Codes developed in this project were designed for experimental purposes and cannot be used in the state to handle all the types of 1D-CNN architecture without any adaptation. The project comes with a multi-channel 1D-CNN model generator which can be used to generate testing models.
-
-The method implemented in this repository is detailed in this article : https://arxiv.org/abs/2010.03724
+This repository contains codes to explain One-Dimensional Convolutional Neural Networks (1D-CNN) using the principle explained in this article https://arxiv.org/abs/2010.03724. The explanation technique consists in computing the relevance of the various n-gram features and determining the sufficient and necessary n-grams. The project comes with a multi-channel 1D-CNN model generator which can be used to generate testing models. 
 
 # Dependencies :
     - Anaconda (python 3.6)
@@ -23,7 +21,7 @@ The project contains 4 main directories :
    to build the pretrained model. 
 
  - explanations :
-   This directory contains the results of explanations when executing the file explain_cnn.py. The explanations provided are contained in a json
+   This directory contains the results of explanations when executing the file explain_cnn.py. The explanations provided are saved in a json
    file which name is related to the name of the model to explain.
 
 # Explaining a model
@@ -33,7 +31,7 @@ The file explain_cnn.py already has default values. To execute the explainer wit
   
       python explain_cnn.py
       
-By default, this command will compute the explanation of the first 10 sentences of the "merged" dataset (yelp+amazon+imdb). The result will be in the file
+By default, this command will compute the explanations related to the first 10 sentences of the "merged" dataset (yelp+amazon+imdb). The result will be in the file
 ./explanations/merged_all_features_ngrams.json
 
 ## Custom configurations :
@@ -55,27 +53,23 @@ For custom configurations, execute the following actions :
       
    2. run the command python explain_cnn.py
    
-   3. The result of the explanation is contained in the directory explanations under the name : <model_name>_all_feature_ngrams.json
+   3. The explanations will be generated in the directory explanations under the name : <model_name>_all_feature_ngrams.json
 
 ## To explain the model on a single sentence :
-Edit the file explain_sentence.py and set the appropriate parameters or leave the default ones. Modify the variable "sent" with the sentence to explain
+Edit the file explain_sentence.py and set the appropriate values for the parameters or leave defaults. Modify the variable "sent" with the sentence to explain
 Then run the command :
 
     python explain_sentence.py
 
-N.B : - The code implemented to explain 1D-CNN assumes that the CNN architecture taken as input has exactly 2 dense layers,
-a variable number of channels (from 1 to n), a single global max-pooling layer, one convolution layer per channel
-and a variable number of filters and kernel_sizes per channel.
-      - Further versions will take into account models with a variable number of dense layers.
+N.B : - The code implemented to explain 1D-CNN assumes that the CNN architecture consists of one or multiple input channel, one convolutional layer per channel, a single global max-pooling layer, a variable number of filters and kernel_sizes per channel and a variable number of hidden layer in the dense layer. 
 
 # Model explanation results
 
 The complete json file representing the explanation for a set of predictions is structured as follows :
 
-    [
-    {
+        {
         "sentence": [
-            "it was either too cold not enough flavor or just bad"
+            "not frightening in the least and barely comprehensible"
         ],
         "target_class": "NEGATIVE",
         "predicted_class": "NEGATIVE",
@@ -83,27 +77,27 @@ The complete json file representing the explanation for a set of predictions is 
             "all": {
                 "1-ngrams": [
                     {
-                        "was": {
-                            "NEGATIVE": 0.07160788029432297,
-                            "POSITIVE": -0.06556335836648941,
-                            "Overall": 0.13717123866081238
+                        "barely": {
+                            "NEGATIVE": -0.007197520695626736,
+                            "POSITIVE": 0.0032649668864905834,
+                            "Overall": -0.010462487116456032
                         }
                     },
                     {
                         "not": {
-                            "NEGATIVE": 0.1827062964439392,
-                            "POSITIVE": -0.19882133603096008,
-                            "Overall": 0.38679349422454834
+                            "NEGATIVE": 0.5278071761131287,
+                            "POSITIVE": -0.4178711175918579,
+                            "Overall": 0.9456782937049866
                         }
                     },
-                ...
+                   ....
                 ],
                 "0-ngrams": [
                     {
                         "": {
-                            "NEGATIVE": 0.1498018503189087,
-                            "POSITIVE": -0.11607369035482407,
-                            "Overall": 0.26587554812431335
+                            "NEGATIVE": 0.26937904953956604,
+                            "POSITIVE": -0.2414221614599228,
+                            "Overall": 0.5108011960983276
                         }
                     }
                 ]
@@ -111,15 +105,19 @@ The complete json file representing the explanation for a set of predictions is 
             "sufficient": {
                 "1-ngrams": [
                     {
-                        "not": 0.38679349422454834
+                        "not": 0.9456782937049866
                     }
                 ]
             },
-            "necessary": {}
+            "necessary": {
+                "1-ngrams": [
+                    {
+                        "not": 0.9456782937049866
+                    }
+                ]
+            }
         }
-    },
-    ...
-    ]
+    }
 
 The json file is in the form of a list of elements where each element represents the explanation for a particular input sentence
 which has been designed to be self-explanatory. Contributions are in the form
@@ -150,6 +148,7 @@ To build your own CNN model for text classification do the followings :
      - n_filters : a list representing the number of filters per channel. Example : n_filters = [40,40,40]. It means that every channel has 40 filters
        which makes a total of 120 filters.
        NB : len(kernel_sizes) == len (n_filters)
+     - hidden_layers : a list of integer representing the number of units per hidden layer in the fully connected stage. len(hidden_layers) is the number of layers in the fully connected neural network except the output layer. 
 
 2. After execute the command :
 
