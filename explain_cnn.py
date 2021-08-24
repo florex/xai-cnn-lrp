@@ -37,7 +37,7 @@ X_train, y_train, X_test, y_test = pre.get_sequences()
 
 explainer = TextCNNExplainer(pre.tokenizer, class_names)
 #Explain the first 10 instances of the test data.
-explanations = explainer.compute_ngrams_contributions(model, X_test[0:1000], y_test[0:1000],rule='L2')
+explanations = explainer.compute_ngrams_contributions(model, X_test[0:1000], y_test[0:1000],rule='LRP-0')
 print(explainer.sufficient_feature_set(model, X_test[2]))
 print(explainer.necessary_feature_set(model, X_test[2]))
 refs = json.dumps(explanations, indent=4)

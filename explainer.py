@@ -22,7 +22,7 @@ class TextCNNExplainer :
     def predict(self, model, data):
         out = model.predict([data]*len(self.kernel_sizes))
 
-    def compute_contrib_dense(self, model, layer_name, data, rule='L2'):
+    def compute_contrib_dense(self, model, layer_name, data, rule='LRP-0'):
         ow = model.get_layer("dense_2").get_weights()[0]
         dense1 = Model(inputs=model.input, outputs=model.get_layer(layer_name).output)
         dense1_out = dense1.predict([data]*len(self.kernel_sizes))
@@ -51,7 +51,7 @@ class TextCNNExplainer :
         return contribs
 
 
-    def compute_contrib_maxpool(self, model, layer_name, data, rule='L2'):
+    def compute_contrib_maxpool(self, model, layer_name, data, rule='LRP-0'):
         weights = model.get_layer('dense_1').get_weights()[0]
         c1 = self.compute_contrib_dense(model, "dense_1", data, rule)
         max_pool = Model(inputs=model.input, outputs=model.get_layer(layer_name).output)
@@ -86,7 +86,7 @@ class TextCNNExplainer :
         return contribs
 
 
-    def compute_contributions(self,model, data, rule='L2'):
+    def compute_contributions(self,model, data, rule='LRP-0'):
         c2 = self.compute_contrib_maxpool(model, self.max_pooled, data, rule)
         return c2
 
@@ -230,7 +230,7 @@ class TextCNNExplainer :
 
         return sufficient_features
 
-    def compute_ngrams_contributions(self, model, data, targets = None, rule='L2'):
+    def compute_ngrams_contributions(self, model, data, targets = None, rule='LRP-0'):
         start = 0
         start_time = time.time()
         contribs = self.compute_contributions(model, data, rule)

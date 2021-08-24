@@ -1,4 +1,4 @@
-from explainer import TextCNNExplainer
+from explainer_v1 import TextCNNExplainer
 from preprocessor import filepath_dict
 from keras.models import model_from_json
 from preprocessor import Preprocessor, filepath_dict
@@ -16,14 +16,16 @@ def load_model(file_name) :
 models_dir = './models/'
 #Define the parameters of the model to explain
 embedding_dim = 50
-n_classes=2
 max_words = 100 # maximum number of word per sentence
 kernel_sizes=[1,2,3]
-model_name = 'merged'
-#test_file_path = filepath_dict['qa_5500']
+model_name = 'qa_5500'
+if model_name == 'qa_5500' :
+    n_classes = 6
+    class_names = ['DESC', 'ENTY', 'ABBR', 'HUM', 'NUM', 'LOC']
+elif model_name == 'merged' :
+    n_classes = 2
+    class_names = ['NEGATIVE', 'POSITIVE']  # for sentiment analysis
 
-#class_names =  ['DESC','ENTY','ABBR','HUM','NUM','LOC']
-class_names = ['NEGATIVE','POSITIVE'] # for sentiment analysis
 file_name = model_name+'_d'+str(embedding_dim)+'_l'+str(max_words)+'_'+str(len(kernel_sizes))+'ch'
 model = load_model(models_dir+file_name+".json")
 model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
@@ -42,7 +44,7 @@ def load_json_file(file_name) :
     return data
 
 data = X_test
-explainer = TextCNNExplainer(pre.tokenizer, model_file_path, class_names, kernel_sizes=kernel_sizes)
+explainer = TextCNNExplainer(pre.tokenizer, class_names)
 #Explain the first 10 instances of the test data.
 contributions = explainer.compute_contributions(model, X_test)
 conv_layer_name = 'global_max_pooling1d_1'
@@ -101,6 +103,8 @@ for x, prob in zip(lrpa_ranking,output_prob) :
             r1 = r1+ x["features"]["all"]["2-ngrams"]
         if "3-ngrams" in x["features"]["all"]:
             r1 = r1+ x["features"]["all"]["3-ngrams"]
+        if "0-ngrams" in x["features"]["all"]:
+            r1 = r1 + x["features"]["all"]["0-ngrams"]
         for d in r1 :
             v = list(d.items())[0][1]
             out[y] += v[class_names[y]]

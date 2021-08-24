@@ -23,30 +23,40 @@ class TextCNNExplainer :
         penultimate_layer = model.layers[-2]
         output_layer = model.layers[-1]
         ow = output_layer.get_weights()[0]
+        out = model.predict([data] * n_chanels)
         #ow = model.get_layer("dense_2").get_weights()[0]
         intermediate_model = Model(inputs=model.input, outputs=penultimate_layer.output)
         intermediate_out = intermediate_model.predict([data]*n_chanels)
         i = 0
         contribs = numpy.empty((intermediate_out.shape[0],ow.shape[0], ow.shape[1]), dtype=numpy.float32)
-        for out in intermediate_out:
+        for out,c in zip(intermediate_out,out):
             out = out.reshape((out.shape[0],1))
             contrib = out * ow
             if rule == 'L2' : # Apply norm L2
                 z = numpy.linalg.norm(contrib, ord=2, axis=0)
-                contrib = contrib / (z + 0.0000000001)
+                contrib = contrib / z
             elif rule == 'L1' : # Apply L1-Norm
                 z = numpy.linalg.norm(contrib, ord=1, axis=0)
-                contrib = contrib / (z + 0.0000000001)
+                contrib = contrib / z
             elif rule == 'LRP-0' :
             # standard LRP -- uncomment the line below
-                contrib = contrib / (numpy.sum(contrib,axis=0) + 0.0000000001)
+                z = numpy.sum(contrib, axis=0)
+                contrib = contrib / z
+            elif rule == 'ABS' :
+                z = numpy.sum(contrib, axis=0)
+                contrib = contrib / abs(z)
+            elif rule == 'INF':  # apply norm Inf
+                z = numpy.linalg.norm(contrib, ord=math.inf, axis=0)
+                contrib = contrib / z
             elif rule == 'PN' :
                 contrib_pos = numpy.where(contrib>=0,contrib,0) # positive contributions
                 contrib_pos = contrib_pos/(contrib_pos.sum(0)+0.00000001) # positive contributions percentage
                 contrib_neg = numpy.where(contrib<0,contrib,0)
                 contrib_neg = contrib_neg / (contrib_neg.sum(0)+0.0000001)
                 contrib = contrib_neg + contrib_pos
+            contrib = contrib*c
             contribs[i] = contrib
+
             i += 1
         return contribs
 
@@ -71,22 +81,32 @@ class TextCNNExplainer :
                     contrib_mat = out_1 * weights
                     if rule == 'L2':  # Apply norm
                         z = numpy.linalg.norm(contrib_mat, ord=2, axis=0)
-                        contrib_mat = contrib_mat / (z + 0.0000000001)
+                        contrib_mat = contrib_mat / z
+                        #contrib_mat = numpy.where(contrib_mat==math.inf or contrib_mat == math.nan, 0, contrib_mat)
                     elif rule == 'L1':  # Apply L1-Norm
                         z = numpy.linalg.norm(contrib_mat, ord=1, axis=0)
-                        contrib_mat = contrib_mat / (z + 0.0000000001)
+                        contrib_mat = contrib_mat / z
+                    elif rule == 'INF' : # apply norm Inf
+                        z = numpy.linalg.norm(contrib_mat, ord=math.inf, axis=0)
+                        contrib_mat = contrib_mat / z
                     elif rule == 'LRP-0':
                         # standard LRP -- uncomment the line below
-                        z = numpy.sum(rule='L2', axis=0)
-                        contrib_mat = contrib_mat / (z + 0.0000000001)
+                        z = numpy.sum(contrib_mat, axis=0)
+                        contrib_mat = contrib_mat / z
+                    elif rule == 'ABS':
+                        z = numpy.sum(contrib_mat, axis=0)
+                        contrib = contrib_mat / abs(z)
                     elif rule == 'PN':
                         contrib_pos = numpy.where(contrib_mat >= 0, contrib_mat, 0)  # positive contributions
-                        contrib_pos = contrib_pos / (contrib_pos.sum(0) + 0.00001)  # positive contributions percentage
-                        contrib_neg = numpy.where(contrib_mat < 0, contrib_mat, 0)  # negative contribution
+                        print (contrib_pos.shape)
+                        contrib_pos = contrib_pos / contrib_pos.sum(0)  # positive contributions percentage
+                        contrib_neg = numpy.where(contrib_mat < 0, contrib_mat, 0)  # negative contributions
                         contrib_neg = contrib_neg / (
                                     numpy.abs(contrib_neg.sum(0)) + 0.000001)  # negative contribution percentage
+                        print(contrib_mat)
                         contrib_mat = contrib_neg + contrib_pos
-
+                        print(contrib_mat)
+                        return
                     # contrib_mat = contrib_mat / abs(contrib_mat).sum(axis=0)
                     contrib = contrib_mat.dot(c)
                     current_layer_contribs[j] = contrib
@@ -111,10 +131,10 @@ class TextCNNExplainer :
             contrib = out * ow
             if rule == 'L2' : # Apply norm
                 z = numpy.linalg.norm(contrib, ord=2, axis=0)
-                contrib = contrib / (z + 0.0000000001)
+                contrib = contrib / z
             elif rule == 'L1' : # Apply L1-Norm
                 z = numpy.linalg.norm(contrib, ord=1, axis=0)
-                contrib = contrib / (z + 0.0000000001)
+                contrib = contrib / z
             elif rule == 'LRP-0' :
             # standard LRP -- uncomment the line below
                 contrib = contrib / (numpy.sum(contrib,axis=0) + 0.0000000001)
@@ -143,14 +163,14 @@ class TextCNNExplainer :
             contrib = None
             if rule == 'L2' : # Apply norm
                 z = numpy.linalg.norm(contrib_mat, ord=2, axis=0)
-                contrib_mat = contrib_mat / (z + 0.0000000001)
+                contrib_mat = contrib_mat / z
             elif rule == 'L1' : # Apply L1-Norm
                 z = numpy.linalg.norm(contrib_mat, ord=1, axis=0)
-                contrib_mat = contrib_mat / (z + 0.0000000001)
+                contrib_mat = contrib_mat / z
             elif rule == 'LRP-0' :
             # standard LRP -- uncomment the line below
                 z = numpy.sum(rule='L2',axis=0)
-                contrib_mat = contrib_mat / (z + 0.0000000001)
+                contrib_mat = contrib_mat / z
             elif rule == 'PN' :
                 contrib_pos = numpy.where(contrib_mat>=0,contrib_mat,0) # positive contributions
                 contrib_pos = contrib_pos/(contrib_pos.sum(0)+0.00001) # positive contributions percentage
@@ -174,11 +194,11 @@ class TextCNNExplainer :
            This method takes as input a sentence and a text cnn model and compute the necessary set of positive ngrams which 
            explain the model decision
     """
-    def necessary_feature_set(self,model, sample):
+    def necessary_feature_set(self,model, sample, rule='L2'):
         sample = sample.reshape(1, len(sample))
         start = 0
         n_chanels = len([layer for layer in model.layers if isinstance(layer, layers.InputLayer)])
-        contributions = self.compute_contributions(model, sample)[0]
+        contributions = self.compute_contributions(model, sample, rule)[0]
         ngrams = dict()
         conv_layers = [layer for layer in model.layers if isinstance(layer,layers.Conv1D)]
         for conv_layer in conv_layers:
@@ -242,11 +262,11 @@ class TextCNNExplainer :
         This method takes as input a sentence and a text cnn model and compute the sufficient set of positive ngrams which 
         explains the model decision
     """
-    def sufficient_feature_set(self,model, sample):
+    def sufficient_feature_set(self,model, sample, rule='L2'):
         sample = sample.reshape(1,len(sample))
         start = 0
         n_chanels = len([layer for layer in model.layers if isinstance(layer, layers.InputLayer)])
-        contributions = self.compute_contributions(model, sample)[0]
+        contributions = self.compute_contributions(model, sample, rule)[0]
         ngrams = dict()
         conv_layers = [layer for layer in model.layers if isinstance(layer, layers.Conv1D)]
         for conv_layer in conv_layers :
@@ -341,10 +361,10 @@ class TextCNNExplainer :
                 'predicted_class': pred_class,
                 'features': {
                     'all': {},
-                    'sufficient':self.sufficient_feature_set(model,d),
-                    'necessary':self.necessary_feature_set(model,d)
-                    #'sufficient':[],
-                    #'necessary':[]
+                    #'sufficient':self.sufficient_feature_set(model,d),
+                    #'necessary':self.necessary_feature_set(model,d)
+                    'sufficient':[],
+                    'necessary':[]
                 }
 
             }
